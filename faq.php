@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>faq</title>
+  <link rel="stylesheet" type="text/css" href="styles/site.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+</head>
+
+<body>
+
+    <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+
+    <nav>
+        <ul>
+          <li><a href="index.php"> Home </a></li>
+          <li><a href="vendor.php"> Vendors </a></li>
+          <li><a href="entertainment.php"> Entertainment </a></li>
+          <li><a href="faq.php"> FAQ</a></li>
+        </ul>
+      </nav>
+
+<h1 class="freq">FREQUENTLY ASKED QUESTIONS</h1>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+<h2 class="q">- How much money should I bring?</h2>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+    <p class="indent">Entry to the event is completely free! The amount of money you should bring is dependent on what, if anything, you wish to purchase at the festival. If you are driving, there is a $5 charge to park at the parking garage (You can find more parking information here ). If you plan to eat at the festival, you may also wish to bring at least $10. Prices of the various baked goods, produce, and crafts vary by vendor. Many of our vendors and their items can be found in the vendor page of this website.</p>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+<h2 class="q">- Can I pay with a credit card?</h2>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+    <p class="indent">Most of our vendors accept credit cards, however, you should bring some cash in case a shop you are interested in does not accept them.</p>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+<h2 class="q">- Can I bring my dog?</h2>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+    <p class="indent">Bringing a dog is strongly discouraged due to pets not being allowed on the Commons. Additionally, the event will be crowded and may be overwhelming for your furry friend, or it may be difficult to move through the crowds. Registered service animals are permitted.</p>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+<h2 class="q">- What should I wear?</h2>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+    <p class="indent">If you are not familiar with the Ithaca area, it can get quite cold in the fall! Check the weather and bring layers.</p>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+<h2 class="q">- When is the best time to attend?</h2>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+    <p class="indent">If you are looking to avoid the crowds, attending midday Friday is a good idea. However, many attendees find that the crowds on the weekend add to the energy and fun of the festival.</p>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+<h2 class="q">- Will there be alcohol?</h2>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+    <p class="indent">Some vendors do sell alcohol (such as hard cider), so be sure to bring your ID if you are over 21. Many of these vendors also offer tastings.</p>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+<h2 class="q">- Directions & Parking</h2>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+<p class="indent">Tompkins Consolidated Area Transit (TCAT) offers public bus transportation from all over the county. One-way fares are \$1.50 per adult. Cornell University students can ride without a fare on weekends and after 6pm with their student ID card.</p>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+<p class="indent">Residents and visitors can park in the Seneca, and Cayuga Street garages and walk to anywhere in Downtown Ithaca. Please note the Green Garage is closed for construction.</p>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+<p class="indent">Garage parking is \$1.00 per hour in the garages. On-street parking is \$1.50 per hour during the week until 6pm.</p>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+<p class="indent">For additional downtown parking, visit <a href="https://www.cityofithaca.org/243/Parking">this</a> website.</p>
+
+
+<img class=" indent park" alt="map of Ithaca parking" src="images/parkingphoto.PNG">
+<p class="indent">Source: Google Maps</p>
+
+
+</body>
+
+</html>
