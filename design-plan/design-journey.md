@@ -13,14 +13,6 @@ Be clear and concise in your writing. Bullets points are encouraged.
 
 ## Markdown Instructions
 
-**TODO: delete this section before submission.**
-
-This is a Markdown file. All written documents that you will submit this semester will be Markdown files. Markdown is a commonly used format by developers and bloggers. It's something that you should know. Learning it is a learning objective of this course.
-
-**Please use the official [Markdown Reference Documentation](https://commonmark.org/help/) if you aren't sure how to "code" Markdown.**
-
-**TODO: delete this section before submission.**
-
 
 ## Existing Design (Milestone 1)
 
@@ -31,52 +23,63 @@ You can use bullet points and lists, or full paragraphs, or a combo, whichever i
 ### Existing Site: The Site (Milestone 1)
 > What is your existing site about? Tell us about it.
 
-TODO: tell us about your website
+tell us about your website:
+
+This is a website for Ithaca Harvest Apple Festival.
 
 > How and where did you create this site?
 
-TODO: tell us how you created it
+tell us how you created it:
+
+I created this website last semester for Info 1300 alone
 
 > Is this site designed for desktop, mobile devices or both?
 
-TODO: mobile or desktop
+mobile AND desktop
 
 > Explain with this website is a **static** website.
 
-TODO:
+This is a static website as the website content is the same regardless of who is the user.
 
 
 ### Existing Site: Audience (Milestone 1)
 > Briefly explain your site's audience.
 > Be specific and justify why this audience is a **cohesive** group.
 
-TODO: site's _cohesive_ audience
+site's _cohesive_ audience (copied from my design journal for info 1300 project 3)
 
+ The audience is people who are ultimately interested in attending the Apple Festival. The majority of the intended audience is from Ithaca (people who live/work/study in Ithaca) however the website does not exclude the people who might be visiting from other towns as well. Additionally, students here always have visitors, and we want to make sure that those people as well have accssible information about the festival. For that purpose, the website has information both the very specifics of the festival and other activities that the visitos can do in Ithaca. The website does not assume any previous knowledge of the festival, as it starts telling the user about the festival right away. But if the user already has some general information and just wants to find something specific, they can skip that information and surf the website using the navigation bar to find the information that they need. To sum up, the audience of the website are people who want to attend the festival both Ithaca residents and people who are either visiting someone that lives in Ithaca or are just from neighboring towns. The audience is not assumes any background knowledge on the festival. There are no age imitations on the audience.
 
 ### Existing Site: Audience Goals (Milestone 1)
 > Document your existing site's audience's goals. (These should be informed by user research. Not assumptions or stereotypes.)
 > List each goal below. There is no specific number of goals required for this, but you need enough to do the job (Hint: It's more than 1 and probably more than 2).
 
-Goal 1: TODO: brief title
+(copied from my design journal for info 1300 project 2)
+
+Goal 1: Entertainment
 
 - **Design Ideas and Choices** _How will you meet those goals in your design?_
-  - TODO: design ideas
+  - design ideas:
+  - Content about what is going to be in the festival, lots of past pictures, bright colors
 - **Rationale & Additional Notes** _Justify your decisions; additional notes._
-  - TODO: rationale
+  - rationale:
+  - I think the content should be centered around entertainment, as opposed to around specific apple types that will be sold or bus schedule because from the answers that I have gathered it doesn't look like those people want to attend or attended the festival to try as many types of apple as possible, bu they wanted to have fun with their close people and entertain themselves. Hence, I think showcasing the crafting shops and any activities would be a good idea in the content. Additionaly, I think adding pictures would be a proof and a convincing element that would also let people have a great idea what to expect during the festival.
 
-Goal 2: TODO: brief title
+Goal 2: Taking a break/resting
 
 - **Design Ideas and Choices** _How will you meet those goals in your design?_
-  - TODO: design ideas
+  - design ideas:
+  - Content about food, drinks, photos, links to the external pages. The colors should be restful and not formal.
 - **Rationale & Additional Notes** _Justify your decisions; additional notes._
-  - TODO: rationale
+  - rationale:
+  - I think content yet again should be around the rewarding aspects, such as food and drinks, and activities. As opposed to being very detailed informative. Because from my interviews it looks like nobody checks the website to see, for example, what buses go there, or the each and very individual vendor name, but they want to go to the festival to explore and to take a break from the university life. I think in terms of the colors it should be playful because people do not expect the festival to be a formal event, instead they expect it to be an opportunity to make connections and to take a break.
 
-Goal 3: TODO: brief title
+Goal 3: Connecting with the community and the friends/family
 
-TODO: design ideas and rationale
-
-
-TODO: add as many goals as needed
+- Design ideas:
+- Mention which groups are going to be present, mention where the money collected would go (especially if there is any cause or any fundraiser present), mantion any activities or games, volunteer opportunities during the festival
+- Rationale:
+- Even though this goal is not completely explicit from the written answers, many people that I have asked about the festival and one person in particular whom I have interviewed, were interested in exploring especially Ithaca and seeing what opportunities are out there and what organizations are present.
 
 
 ### Existing Site: Design/Sketches (Milestone 1)
@@ -85,8 +88,19 @@ TODO: add as many goals as needed
 > Why can't you copy the sketches? I want to get you thinking about the strengths/weaknesses of the current design.
 > Provide an explanation _underneath_ each sketch explaining the sketch and any design patterns you are leveraging.
 
-TODO: A sketch + explanation for each webpage
+A sketch + explanation for each webpage
 
+![Home page scetches](scetches/homeScetch.jpg)
+![Vendor page scetches](scetches/vendorsScetch.jpg)
+![Entertainment page scetches](scetches/entertainmentScetch.jpg)
+![Frequently Asked Questions page scetches](scetches/faqScetch.jpg)
+
+All the wide screens have the same horizontal navigation bar that becomes a hamburger menu in the narrow screens. This is a common practice.
+Home page includes a photo of apples to visully introduce the theme and the topic of the festival, as well as the name of the festival and short information about the festival, dates, and location. The dates and time for the narrow screen move under the photo so the user does not scroll horizontally to see that information. This is to accommodate for the narrow screen.
+Entertainment page includes an example photos of entertainment as well as all the dates, times, and locations of each entertainment activity. There are also chunks of text to better explain what other activities are there in Ithaca.
+Vendors page introduces all the vendors divided to categories so that people do not have to surf long lists of every vendors but instead can see the ones that they are interested in.
+Vendors page has galleries to display all the relevant images without taking too much space on the screen.
+FAQ page includes all the frequently asked questions and their answers. It has accordion to make it easy for the users to find the question that they are interested in and not to have to read every single question with its respectful answer.
 
 
 ## Milestone 1 Feedback Revisions (Milestone 2)
