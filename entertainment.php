@@ -12,47 +12,53 @@
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
+<img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">
+<img id="cancel" class="cancel hidden" alt="" src="images/cancel.png">
+
+<div id="nav" class="nav">
     <nav>
-        <ul>
+        <ul id="navBar">
           <li><a href="index.php"> Home </a></li>
           <li><a href="vendor.php"> Vendors </a></li>
           <li><a href="entertainment.php"> Entertainment </a></li>
           <li><a href="faq.php"> FAQ</a></li>
         </ul>
-      </nav>
+    </nav>
+</div>
 
 <h1>ENTERTAINMENT</h1>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <h2>Located at the Bernie Milton Pavilion</h2>
-<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <h3>Saturday, October 1, 2022</h3>
-<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
-<div class="ent1">
-<ul>
-<li>12:00pm - Rachel Beverly</li>
-<li>1:00pm - Sunny Weather</li>
-<li>2:00pm - Firefly Jazz Quartet</li>
-<li>3:00pm - Janet Batch</li>
-<li>4:00pm - Leo + The Maydays</li>
-<li>5:00pm - Neo Project</li>
-</ul>
 
-<img class="fire" alt="commons area" src="images/commons-far.jpg">
+<div class="ent1">
+  <ul>
+    <li>12:00pm - Rachel Beverly</li>
+    <li>1:00pm - Sunny Weather</li>
+    <li>2:00pm - Firefly Jazz Quartet</li>
+    <li>3:00pm - Janet Batch</li>
+    <li>4:00pm - Leo + The Maydays</li>
+    <li>5:00pm - Neo Project</li>
+  </ul>
+  <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+  <img class="fire" alt="commons area" src="images/commons-far.jpg">
 </div>
+
+
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <h3>Sunday, October 2, 2022</h3>
-<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <ul>
-<li>12:00pm - Ageless Jazz Band</li>
-<li>1:00pm - Yamatai</li>
-<li>1:30pm - Fall Creek Brass Band</li>
-<li>3:00pm - Viva Mayhem</li>
-<li>4:00pm - Noon Fifteen</li>
-<li>5:00pm - Ariel Arbisser</li>
+  <li>12:00pm - Ageless Jazz Band</li>
+  <li>1:00pm - Yamatai</li>
+  <li>1:30pm - Fall Creek Brass Band</li>
+  <li>3:00pm - Viva Mayhem</li>
+  <li>4:00pm - Noon Fifteen</li>
+  <li>5:00pm - Ariel Arbisser</li>
 </ul>
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <img class="ppl" src="images/popcorn-stall.jpg" alt="popcorn stand">
+
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <h2>Things to do in Ithaca</h2>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
@@ -75,6 +81,13 @@
 <h2>Dining</h2>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <p>Be sure to dine at some of Ithaca's most popular restaurants, like the Ithaca Beer Company, Asia Cuisine, Taste of Thai, Red's Place, Bickering Twins, Hawi, and many many more! Most of these restaurants can be found in the Commons, so they are perfect for dinner after attending the Harvest Festival!</p>
+
+
+<script src="scripts/jquery-3.6.1.js"></script>
+
+<script src="scripts/hamburgerMenu.js"></script>
+
+<script src="scripts/hamburgerMenu.js"></script>
 
 </body>
 

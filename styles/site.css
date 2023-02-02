@@ -1,0 +1,283 @@
+body {
+    background-color: rgb(184, 50, 50);
+    font-size: medium;
+    color: azure;
+    font-family: sans-serif;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+  color: rgb(161, 127, 3);
+}
+
+.hidden{
+  display: none !important;
+}
+
+
+.hamburger{
+  width: 70px;
+}
+
+.cancel{
+  width: 70px;
+}
+
+nav {
+    background-color: #78380d;
+    padding: 5px;
+    flex: 1;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+
+  }
+
+  nav li a {
+    padding: 10px;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #ccdeef;
+  }
+
+  img {
+    width:200px;
+  }
+
+  a{
+    text-decoration: none;
+    color: #354a5e;
+  }
+
+  .indent{
+    padding-left: 30px;
+  }
+
+  .jwl1{
+
+    padding-left: 20px;
+  }
+
+  .jwl2{
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+
+  .jwl3{
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+
+  .jwl4{
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+
+  .jwl5{
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+
+ .jewelry{
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+ }
+
+ .food1{
+    padding-left: 20px;
+ }
+
+ .food2{
+    padding-left: 20px;
+    padding-top: 15px;
+ }
+
+ .food3{
+  padding-left: 20px;
+  padding-top: 15px;
+ }
+
+.food{
+  width:70px;
+}
+
+.foodSmall{
+  display: flex;
+  flex-direction: column;
+}
+
+ .wines1{
+    padding-left: 20px;
+ }
+
+ .wines2{
+    padding-left: 20px;
+    padding-top: 15px;
+ }
+
+ .wines3{
+  width: 70px;
+ }
+
+ .wines4{
+  width: 70px;
+ }
+
+.thumbnail{
+  display: flex;
+  flex-direction: column;
+}
+
+.wines{
+  display: flex;
+  flex-direction: row;
+}
+
+ .app1{
+    padding-left: 20px;
+ }
+
+ .app2{
+    padding-left: 20px;
+    padding-top: 15px;
+ }
+
+ .fire{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 60%;
+ }
+
+ .ppl{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 60%;
+ }
+
+ .desc{
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #7c3000;
+  border-width: 5px;
+  background-color: #2b6d01;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align:justify;
+ }
+
+ h1{
+  font-family: cursive;
+  color: #e1e2d4;
+ }
+
+.verticalTriangle{
+  width: 40px;
+  height: 40px;
+}
+
+.horizontalTriangle{
+  width: 40px;
+  height: 40px;
+}
+
+.question{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.q{
+  color:#f3e9e3ca
+}
+
+.freq{
+  color: #196503;
+}
+
+.park{
+  width:300px;
+}
+
+.description{
+  padding-bottom: 15px;
+}
+
+.equal-row{
+  display: flex;
+  flex-direction: row;
+}
+.equal-row-1{
+  display: flex;
+  flex-direction: row;
+}
+.craft-pics{
+  display: flex;
+  flex-direction:row;
+  align-content:space-between;
+}
+
+
+.home{
+  display: flex;
+  flex-direction: column;
+
+}
+.centerr{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.craft{
+  display: flex;
+  flex-direction: row;
+}
+
+.sources{
+  font-size: small;
+}
+
+  @media (min-width: 600px){
+    .home{display: flex; flex-direction: row; }
+    aside{display: flex; flex-direction: column; justify-self: end; padding-left: 150px;}
+    .homepara{display: flex; flex-direction: column; justify-content: space-between;}
+    .fst{padding-top: 40px;}
+    p{font-size: larger;}
+    .nav{display: flex; flex-direction: row; justify-self: center;}
+    nav ul{flex-direction: row;}
+    .splist{display: flex;}
+    .park{width:500px;}
+    .applebasket{width: 600px}
+    .app1{width: 350px}
+    .app2{width: 400px}
+    .wines1{width: 250px}
+    .wines2{width: 250px}
+    .food1{height: 250px; width: 250px}
+    .food2{height: 250px; width: 250px}
+    .food3{height: 250px; width: 250px}
+    .jwl1{height: 230px; width: 230px}
+    .jwl2{height: 230px; width: 230px}
+    .jwl3{height: 230px; width: 230px}
+    .jwl4{height: 230px; width: 230px}
+    .jwl5{height: 230px; width: 230px}
+    p{font-size: x-large;}
+    .home{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }
