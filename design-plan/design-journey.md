@@ -106,8 +106,9 @@ FAQ page includes all the frequently asked questions and their answers. It has a
 ## Milestone 1 Feedback Revisions (Milestone 2)
 > Explain what you revised in response to the Milestone 1 feedback
 
-TODO: milestone 1 feedback revisions
+milestone 1 feedback revisions:
 
+My milstone 1 feedback stated that I met all the requirements and there was a good process towards to the project. It did not indicate anything to change. Hence, I have not changed anything since.
 
 
 ## Refined Design (Milestone 2)
@@ -117,15 +118,35 @@ TODO: milestone 1 feedback revisions
 > Your persona must have a name and a face. The face can be a photo of a face or a drawing, etc.
 > You may type out the persona below with bullet points or include an image of the persona. Just make sure it's easy to read the persona when previewing markdown.
 
-Persona's Name: TODO: persona name
+Persona's Name: Anna
 
-TODO: persona details
+persona details:
+
+Personal information:
+- Anna is a student in Ithaca.
+- She is 19 years old.
+- Anna likes eating out and hanging out with friends.
+- Anna is a low budget student who has a scholarship at her university.
+
+Needs/wants/desires
+- Anna wants to find a place to have fun and spend some quality time with her friends.
+- Anna looks for food and bevarages while choosing a place to go.
+- Anna needs an accessible location as she doesn't own a car.
+- Anna needs low prices if she is to buy something.
+
+Obstacles:
+- Anna is a low income student, hence expensive costs is one of the main obstacles for her to attend an event.
+- Anna doesn't have a car, hence she needs a transportation to move to the events.
+- Anna is a student, therefore the timing of the event is important for her. She cannot attend an event if it is early in the morning when she has a class or later at night, as she has to sleep early for the next day.
+- Anna is underage, hence she cannot attend events that require people to be over 21.
 
 
 ### Refined Design: Mobile or Desktop (Milestone 2)
 > Will your refined design be functional on mobile, tablet, or desktop devices?
 
-TODO: how will your persona access your website?
+how will your persona access your website?
+
+Desktop design
 
 
 ### Refined Design: Form Brainstorm (Milestone 2)
@@ -134,7 +155,13 @@ TODO: how will your persona access your website?
 > For each form idea, explain how the form supports the goals of the persona.
 > **Refer to the persona by name.**
 
-TODO: list about 3 ideas for including a form on your website
+list about 3 ideas for including a form on your website
+
+Form idea one: The festival provides trasportation to the event and collects information about when is the best time to pick up people. Additionally, it also collects infrmation about the most popular spots to pick up people from so that it can create a route of the transportation. This supports Anna's goals as she wants to go to the festival but cannot do so without an accessible transportation. Therefore, by filling out this form she will indicate her need of transportation and most likely will be accommodated by the festival.
+
+Form idea two: Asking for allergens to be able to accommodate for during the festival. If Anna has allergy from cheese, the festival needs to have that information to have cheese-free food options at place. This fulfills Anna's goals as she wants to have food, however she would not be able to do so if all the food available contains alergens.
+
+Form idea three: Subscribing to the email list to be able to receive news and notifications about any updates in the festival. This meets Anna's goals as she will be able to get notified about any entertainment and vendor activities during the festival and base her decision about attending the events on those notifications.
 
 
 ### Refined Design: Content (Milestone 2)
@@ -142,17 +169,31 @@ TODO: list about 3 ideas for including a form on your website
 > You should list all types of content you planned to include (i.e. text, photos, images, etc.)
 > List the content here. Label the content as "(new)" if it's new to the existing site.
 
-- TODO: content 1
-- TODO: content 2
-- TODO: content 3
-- ...
+- content 1: Apple images
+- content 2: Entertainment activity images
+- content 3: Cider images
+- content 4: Pie images
+- content 5: transportation information
+- content 6: form to submit transportation request
+- content 7: FAQ
+- content 8: map of parking
+- content 9: location
+- content 10: times
+- content 11: all the activities
+- content 12: all the vendors
+- content 13: prices
+- content 14: age restriction
+- content 15: student benefits and discounts
+- content 16: festival description
+- content 17: contact information
 
 
 ### Refined Design: Content Justification (Milestone 2)
 > Explain why this content supports the goals of your persona.
 > **Refer to the persona by name.**
 
-TODO: content justification
+content justification:
+Anna is interested in food, beverages, and activities. Hence, there are all the lists and descriptions of all the possible activities (with their times and locations) and vendors. Photos provide visual information about the food and activities in case Anna doesn't recognize any of the names. Prices are included because Anna is conscious about prices. Transportation is a major obstacle for Anna, therefore all the possible ways of transportation is included as well (including form to submit a transportation request, buses, and parking location). Because Anna is underage, she cannot use/buy anu hard ciders, therefore that piece of content is also included. However, that is not an obstackle for Anna to miss the festival as besides all the beverages that contain alcohol, she can participate in any activities and buy anuthing else offered. That is also displayed within the age limitation content. Additionally, Anna is a student, and as many events and organizations give student discounts and benefits, Anna also is curious weather she can get any special offers. Festival location and hours, as well as the description is specified to help Anna make up her mind about going to the festival.
 
 
 ### Refined Design: Content Organization (Milestone 2)
@@ -161,21 +202,26 @@ TODO: content justification
 > **Please physically sort cards;** please don't try and do this digitally.
 > **Refer to the persona by name.**
 
-TODO: iterations of card sorting
+iterations of card sorting
+![Iteration one](scetches/iteration_one.jpg)
+![UIteration two](scetches/iteration_two.jpg)
+
+During the first iteration (which is named 'iteration two' for the file organizational purposes) I was trying to destribute the content that I have added based on Anna's desires and concerns to the other existing pages. I have added information/form about the transportation and prices. Hence, I have moved some of the transportation related content to the 'Home' and 'FAQ' pages and kept the prices in the 'FAQ' page. However, because they were inconsistent with the rest of the website I have done the second iteration and created a new transportation page that would have all the transportation related content. I have also moved prices to the vendors page because Anna would want to know what each product costs before buying it.
 
 
 ### Refined Design: Navigation (Milestone 2)
 > Please list the pages you will include in your website's navigation.
 
-- TODO: page 1
-- TODO: page 2
-- TODO: page 3
-- ...
+- page 1: Home
+- page 2: Vendors
+- page 3: Entertainment
+- page 4: Transportation
+- page 5: FAQ
 
 > Explain why the names of these pages make sense for your persona.
 
-TODO: explain why the pages name make sense to the audience.
 
+Home page is a common practice as all the web pages have the home page. The user can expect to see basic introductory information of the website. Vendors page makes sense as it lists and introduces all the vendors. Entertainment page is about all the entertaiment activities with their locations and times. Transportation name makes sense as it contains the form request for transportation as well as all the possible ways that one can reach the location of the festival. This is especially important as Anna is concerned about the lack of transportation. FAQ page name makes sense because it is a common practice and many pages have frequently answered questions page separately.
 
 ### Refined Design: Design (Milestone 2)
 > Refine the design of your site to address the goals of your persona.
@@ -184,7 +230,31 @@ TODO: explain why the pages name make sense to the audience.
 > Document your _entire_ design process. **Show your preliminary sketches and your final sketches.** **We want to see iteration!**
 > **Refer to your persona by name in each explanation.**
 
-TODO: sketches + explanation
+sketches + explanation
+Home page:
+![Original Home page scetches](scetches/homeScetch.jpg)
+![Updated Home page scetches](scetches/home_updated.jpg)
+Added two partial outlines: navigation bar + the header and the contact information sidebar.
+Ignore the phone screen as the website will be designed only for widescreens.
+
+![Original Vendor page scetches](scetches/vendorsScetch.jpg)
+![Updated Vendor page scetches](scetches/vendors_updated.jpg)
+Added proces on the Vendor page because Anna is conscious of prices and would like to see the prices before committing to an activity.
+Added two partial outlines: navigation bar + the header and the contact information sidebar.
+Ignore the phone screen as the website will be designed only for widescreens.
+
+![Original Entertainment page scetches](scetches/entertainmentScetch.jpg)
+![Updated Entertainment page scetches](scetches/entertainment_updated.jpg)
+Added two partial outlines: navigation bar + the header and the contact information sidebar.
+Ignore the phone screen as the website will be designed only for widescreens.
+
+![Original Frequently Asked Questions page scetches](scetches/faqScetch.jpg)
+![Updated Frequently Asked Questions page scetches](scetches/FAQ_updated.jpg)
+Added two partial outlines: navigation bar + the header and the contact information sidebar.
+Ignore the phone screen as the website will be designed only for widescreens.
+
+![New transportation page](scetches/transportation.jpg)
+Added a new transportation page as Anna is worried about the transportation as she doesn't own a car and having an accessible way of transportation can determine if she goes to the festival or not. Added transportation request form. Added the bus list/information on this page. Shifted the parking information from the FAQ page to the new transportation page.
 
 
 ### Partial Plan (Milestone 2)
@@ -192,7 +262,9 @@ TODO: sketches + explanation
 > You may describe each partial or sketch it. It's up to you!
 > Explain how you will customize at least 1 partial.
 
-TODO: partial plan
+partial plan:
+One partioal would be the header and the navigation bar. I would customize this partial by echo-ing the variable of the page in the header. Anna would appreciate having these names on the header as it helps to navigate through the website.
+The second partial would be contact information that would be a sidebar or a footer in every page. This would be helpful for Anna as she can find the contact information of the festival organizers' easily and quickly, in case she has to contact them and has questions that are not covered in the website.
 
 
 ## Milestone 2 Feedback Revisions (Milestone 3)
