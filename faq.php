@@ -26,18 +26,6 @@ $faq = 'this page';
 <img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">
 <img id="cancel" class="cancel hidden" alt="" src="images/cancel.png">
 
-<!-- <div id="nav" class="nav">
-    <nav>
-        <ul>
-          <li><a href="index.php"> Home </a></li>
-          <li><a href="vendor.php"> Vendors </a></li>
-          <li><a href="entertainment.php"> Entertainment </a></li>
-          <li><a href="faq.php"> FAQ</a></li>
-        </ul>
-      </nav>
-</div>
-
-<h1 class="freq">FREQUENTLY ASKED QUESTIONS</h1> -->
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
@@ -123,6 +111,7 @@ $faq = 'this page';
 
 <script src="scripts/hamburgerMenu.js"></script>
 
+<?php include 'includes/contact.php'; ?>
 </body>
 
 

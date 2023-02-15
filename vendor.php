@@ -26,18 +26,6 @@ $faq = '';
 <img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">
 <img id="cancel" class="cancel hidden" alt="" src="images/cancel.png">
 
-<!-- <div id="nav" class="nav">
-  <nav>
-    <ul id="navBar">
-      <li><a href="index.php"> Home </a></li>
-      <li><a href="vendor.php"> Vendors </a></li>
-      <li><a href="entertainment.php"> Entertainment </a></li>
-      <li><a href="faq.php"> FAQ</a></li>
-    </ul>
-  </nav>
-</div>
-
-<h1>VENDORS</h1> -->
 <!-- Source:  THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="desc">
   <p>With over 100 vendors present at the festival, there are many opportunities to be introduced to the rich artisan and culinary community in Ithaca. Our food vendors feature apple-centric and other fall classics for you to taste, and the craft vendors offer homemade goods like soaps, jewelry, sculptures, clothing, and more! This is the perfect place to learn about and support Ithaca's small businesses that encompass the heart of the town.</p>
@@ -266,6 +254,7 @@ $faq = '';
 
 <script src="scripts/hamburgerMenu.js"></script>
 
+<?php include 'includes/contact.php'; ?>
 </body>
 
 </html>
