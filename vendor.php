@@ -1,7 +1,7 @@
 <?php
 $page = 'Vendors';
 
-$home_status = '';
+$home = '';
 $vendors = 'this_page';
 $entertainment = '';
 $transportation = '';
@@ -20,12 +20,13 @@ $faq = '';
 
 <body>
 
+<?php include 'includes/header.php'; ?>
 <!-- Source:  THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">
 <img id="cancel" class="cancel hidden" alt="" src="images/cancel.png">
 
-<div id="nav" class="nav">
+<!-- <div id="nav" class="nav">
   <nav>
     <ul id="navBar">
       <li><a href="index.php"> Home </a></li>
@@ -36,7 +37,7 @@ $faq = '';
   </nav>
 </div>
 
-<h1>VENDORS</h1>
+<h1>VENDORS</h1> -->
 <!-- Source:  THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="desc">
   <p>With over 100 vendors present at the festival, there are many opportunities to be introduced to the rich artisan and culinary community in Ithaca. Our food vendors feature apple-centric and other fall classics for you to taste, and the craft vendors offer homemade goods like soaps, jewelry, sculptures, clothing, and more! This is the perfect place to learn about and support Ithaca's small businesses that encompass the heart of the town.</p>

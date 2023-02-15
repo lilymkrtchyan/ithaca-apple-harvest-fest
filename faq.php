@@ -1,7 +1,7 @@
 <?php
 $page = 'FAQ';
 
-$home_status = '';
+$home = '';
 $vendors = '';
 $entertainment = '';
 $transportation = '';
@@ -20,12 +20,13 @@ $faq = 'this page';
 
 <body>
 
-    <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
+<?php include 'includes/header.php'; ?>
+<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">
 <img id="cancel" class="cancel hidden" alt="" src="images/cancel.png">
 
-<div id="nav" class="nav">
+<!-- <div id="nav" class="nav">
     <nav>
         <ul>
           <li><a href="index.php"> Home </a></li>
@@ -36,7 +37,7 @@ $faq = 'this page';
       </nav>
 </div>
 
-<h1 class="freq">FREQUENTLY ASKED QUESTIONS</h1>
+<h1 class="freq">FREQUENTLY ASKED QUESTIONS</h1> -->
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">

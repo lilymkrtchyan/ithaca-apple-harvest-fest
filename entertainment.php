@@ -1,7 +1,7 @@
 <?php
 $page = 'Entertainment';
 
-$home_status = '';
+$home = '';
 $vendors = '';
 $entertainment = 'this_page';
 $transportation = '';
@@ -20,12 +20,13 @@ $faq = '';
 
 <body>
 
+<?php include 'includes/header.php'; ?>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">
 <img id="cancel" class="cancel hidden" alt="" src="images/cancel.png">
 
-<div id="nav" class="nav">
+<!-- <div id="nav" class="nav">
     <nav>
         <ul id="navBar">
           <li><a href="index.php"> Home </a></li>
@@ -36,7 +37,8 @@ $faq = '';
     </nav>
 </div>
 
-<h1>ENTERTAINMENT</h1>
+<h1>ENTERTAINMENT</h1> -->
+
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <h2>Located at the Bernie Milton Pavilion</h2>
 <h3>Saturday, October 1, 2022</h3>
