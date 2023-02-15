@@ -1,3 +1,13 @@
+<?php
+$page = 'Entertainment';
+
+$home_status = '';
+$vendors = '';
+$entertainment = 'this_page';
+$transportation = '';
+$faq = '';
+?>
+
 <!DOCTYPE html>
 <html>
 

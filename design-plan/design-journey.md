@@ -122,6 +122,12 @@ Persona's Name: Anna
 
 persona details:
 
+![Anna's face](scetches/persona_anna.jpg)
+
+I have chosen this picture to represent Anna because she is also as sleep-deprived as we - Cornell and overall students - are.
+The image is downloaded from an open source in Pinterest.
+
+
 Personal information:
 - Anna is a student in Ithaca.
 - She is 19 years old.
@@ -256,6 +262,12 @@ Ignore the phone screen as the website will be designed only for widescreens.
 ![New transportation page](scetches/transportation.jpg)
 Added a new transportation page as Anna is worried about the transportation as she doesn't own a car and having an accessible way of transportation can determine if she goes to the festival or not. Added transportation request form. Added the bus list/information on this page. Shifted the parking information from the FAQ page to the new transportation page.
 
+![Transportation confirmation page](scetches/confirmation.jpg)
+The confirmation page displays the data that was collected from the user. Anna can see what data she has inputted and in the case of any mistyping she can correct it  submitting another form.
+
+![Error message page](scetches/error.jpg)
+The error message page that is supposed to pop-up whenever Anna inputs incorrect route is written in a manner/words that don't assume any prior knowledge in web development or computing. Anna is a student however she is not an information science or computer science student and has never takenany coding courses. She doesn't have to know what "Error 404" means, therefore the website will display a friendly message explaining what went wrong and how she can re-routherself into a correct site. It is important that the message does not blame Anna for doing something wrong because otherwise that would be a bad user experience. For that reason, I have planned for the website to aplogize for the inconvinience. Because the website is not supposed to be very formal, the message too is not very formal. It is rather friendly. Additionally, I have planned to keep the same navigation bar and header to let Anna know that she is still on the same website. The suggested solution of how to redirect to the correct/desired website is to use the navigation bar to naviga out of the error messahe page.
+
 
 ### Partial Plan (Milestone 2)
 > Using your refined sketches, plan your site's partials.
@@ -270,7 +282,11 @@ The second partial would be contact information that would be a sidebar or a foo
 ## Milestone 2 Feedback Revisions (Milestone 3)
 > Explain what you revised in response to the Milestone 2 feedback
 
-TODO: milestone 2 feedback revisions
+milestone 2 feedback revisions:
+
+- I have added Anna's (Anna is my persona) face to the design journey.
+- I have added scetches for the error message page and the form confirmation page.
+- Added partial files for the navigation bar + the header and the contact information side bar
 
 
 ## Form Design and Planning (Milestone 3)
@@ -281,14 +297,31 @@ TODO: milestone 2 feedback revisions
 > Provide a brief explanation _underneath_ each sketch.
 > **Refer to the persona by name.**
 
-TODO: sketches + explanation
+sketches + explanation:
+
+![Form scetch: first iteration](scetches/form1.jpg)
+In this iteration all the fields and labels are alligned to the left so Anna's eyes are directed from up to down in the same line. The submit button is on the bottom right of the form to direct Anna's eyes in a trajectory line that we discussed during the lecture. The radio buttons are in a horizontal line which takes less space on the form however it violates the proximity principle that would allow Anna to associate the right label with the right button. The problem that can arise here is that Anna would want to choose a button but because it is so hard to understand which button is associated with which label, she can accidently choose the wrong one.
+
+![Form scetch: second iteration](scetches/form2.jpg)
+This iteration of the form follows the allignment and the proximity principles of design. The allignment of all the elements is towards the left where one element is right below/above the neighboring one. It also follows the trajectory movement. Additionally, it is clear which field/button corresponds to which label, as unlike the previous iteration, in this one the radio buttons are in a vertical allignment.
+
+![Form scetch: third iteration](scetches/form3.jpg)
+In the third iteration of designing the form, I have changed the text field for inputting the location of pick up to be a drop down filed. For this desicion I had in mind that people might live in unorganized or far places hence it might be a good idea to limit the input options only to possible pick up locations. However, on the other hand, the route of the transportation is not certain yet, and limiting the options might leave out places that are popular among users like Anna and have high demand for pick up. Additionally, the website that does not guarantee a pick up but rather uses the information to organize the route, hence it is also a good idea to gather a fair/row data of all the locations that people would want to get picked up from.
+
+![Form scetch: forth iteration](scetches/form4.jpg)
+In this iteration I have alligned the labels together and the fileds/buttons together. In this way, this form doesn't violate the allignment principle and Anna would still understand where to look and what is associated with what. Additionally, the radio buttons are also in a vertical allignment which improves the proximity and makes it easier to realize what button corresponds to what label while choosing the convinient time for the pick up.
+
+![Final form scetch](scetches/final_form.jpg)
+For the final form decision I was contemplating between the second iteration and the last iteration as these were the ones that didn't violate the proximity principle and were not confusing to use. I decided to choose the forth iteration as it looks more optimal for the desktom than the second iteration. The allignment is horizontal rather than vertical: the labels are vertically alligned together and the fields and buttons are separately vertically alligned together so the principle of allignment still holds. However the labels and the fields are alligned horizontally filling out the space on the desktop/wide screen. I have also included the names of the buttons/fields. The email will use the email field (on the scetch it is indicated as text but later it has been changed) and the location will use the text field. The time will use radio buttons.
 
 
 ### Form Planning (Milestone 3)
 > Will your form use a GET or POST request.
 > Justify your decision as to why the request type is appropriate for the form.
 
-TODO: GET/POST + justification
+GET/POST + justification:
+
+The form will use a POST request because I will be asking for Anna's email address for the purposes of future communication and pick up information/details. Hence, because an email is a personal information as well as the location of where Anna potentially lives (doesn't have to be but most probably she will mention the place where she lives or spends time the most) and times where she is there. These are personal information that may not only annoy Anna once misused (such as subscribing for spam newsletters) but can also be dangerous. We don't want the whole internet to know where Anna lives/spends time and when people can find her. Hence, to secure the data, I will be using the POST request.
 
 
 ## Milestone 3 Feedback Revisions (Final Submission)
