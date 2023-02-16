@@ -31,32 +31,41 @@ $faq = '';
 
 <form id="transportation-request" action="transportation-confirmation.php" method="post" novalidate>
 
-        <div class="form-label">
-          <input type="email" name="email_address" id="request_email" />
-          <label for="email_address">Email</label>
+        <div class="request_email">
+            <label for="email_address">Email</label>
+            <div class="left_alignment"> <input type="email" name="email_address" id="request_email" /> </div>
         </div>
 
-        <div class="form-label">
-          <input type="text" name="location" id="request-location" />
-          <label for="location">Location</label>
+        <div class="request_location">
+           <label for="location">Location</label>
+        <div class="left_alignment">  <input type="text" name="location" id="request-location" /> </div>
         </div>
 
-        <div role="group" aria-labelledby="group_head">
-          <div id="group_head">Time</div>
+        <div class="request_time" role="group" aria-labelledby="time_options">
+          <div id="time_options">Time</div>
 
+          <div class="radio_buttons left_alignment">
+         <div class="option">
           <input type="radio" id="nine" name="time" value="9AM" />
           <label for="nine">9 AM</label>
+         </div>
 
+         <div class="option">
           <input type="radio" id="ten" name="time" value="10AM" />
           <label for="ten">10 AM</label>
+         </div>
 
+         <div class="option">
           <input type="radio" id="eleven" name="time" value="11AM" />
           <label for="eleven">11 AM</label>
+         </div>
+
+        </div>
         </div>
 
 
-        <div class="align-right">
-          <input id="submit" type="submit_button" value="Request Transportation" />
+        <div class="submit_button">
+          <input id="submit" type="button" value="Request Transportation" />
         </div>
       </form>
 
