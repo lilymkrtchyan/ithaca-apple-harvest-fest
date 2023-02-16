@@ -20,7 +20,7 @@ $faq = '';
 
 <body>
 
-<?php include 'includes/header.php'; ?>
+<h1>Form Confirmation</h1>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">
@@ -65,7 +65,7 @@ $faq = '';
 
 
         <div class="submit_button">
-          <input id="submit" type="button" value="Request Transportation" />
+          <input id="submit" type="submit" value="Request Transportation" />
         </div>
       </form>
 

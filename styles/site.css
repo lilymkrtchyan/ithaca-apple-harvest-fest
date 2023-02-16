@@ -44,6 +44,18 @@ body {
   font-size: 15px;
 }
 
+/* Confirmation Page Styles */
+.align{
+  display: flex;
+  flex-direction: row;
+}
+
+.left{
+  margin-left: 30px;
+}
+
+
+
 nav ul li a:hover,
 nav ul li a:active {
   color: rgb(161, 127, 3);
