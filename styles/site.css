@@ -250,6 +250,8 @@ nav {
   font-size: small;
 }
 
+
+
   @media (min-width: 600px){
     .home{display: flex; flex-direction: row; }
     aside{display: flex; flex-direction: column; justify-self: end; padding-left: 150px;}
