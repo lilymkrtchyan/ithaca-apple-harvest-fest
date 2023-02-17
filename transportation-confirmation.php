@@ -4,7 +4,8 @@ $page = 'Home';
 $home = '';
 $vendors = '';
 $entertainment = '';
-$transportation = 'this page';
+$transportation = '';
+$transportation_confirmation = 'this page';
 $faq = '';
 ?>
 
@@ -21,6 +22,7 @@ $faq = '';
 <body>
 
 <?php include 'includes/header.php'; ?>
+<h1>Form Confirmation</h1>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">

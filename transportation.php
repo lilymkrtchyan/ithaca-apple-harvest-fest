@@ -20,7 +20,7 @@ $faq = '';
 
 <body>
 
-<h1>Form Confirmation</h1>
+<?php include 'includes/header.php'; ?>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">
