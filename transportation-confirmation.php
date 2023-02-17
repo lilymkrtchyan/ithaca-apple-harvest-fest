@@ -1,5 +1,5 @@
 <?php
-$page = 'Home';
+$page = 'Form Confirmation';
 
 $home = '';
 $vendors = '';
@@ -22,7 +22,7 @@ $faq = '';
 <body>
 
 <?php include 'includes/header.php'; ?>
-<h1>Form Confirmation</h1>
+<!-- <h1>Form Confirmation</h1> -->
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">

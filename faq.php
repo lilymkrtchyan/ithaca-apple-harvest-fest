@@ -5,6 +5,7 @@ $home = '';
 $vendors = '';
 $entertainment = '';
 $transportation = '';
+$transportation_confirmation = '';
 $faq = 'this page';
 ?>
 
