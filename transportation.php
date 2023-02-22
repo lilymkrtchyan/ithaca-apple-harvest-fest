@@ -24,8 +24,16 @@ $faq = '';
 <?php include 'includes/header.php'; ?>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
-<img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">
-<img id="cancel" class="cancel hidden" alt="" src="images/cancel.png">
+<img id="bus10" alt="bus 10 route" src="images/bus10_rescaled.png">
+<img id="bus11" class="bus 11 route" alt="" src="images/bus11_rescaled.png">
+<img id="bus13" class="bus 13 route" alt="" src="images/bus13_rescaled.png">
+<img id="bus14" class="bus 14 route" alt="" src="images/bus14_rescaled.png">
+<img id="bus17" class="bus 17 route" alt="" src="images/bus17_rescaled.png">
+
+
+
+
+
 
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
