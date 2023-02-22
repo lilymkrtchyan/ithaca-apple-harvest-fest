@@ -6,37 +6,29 @@ body {
 }
 
 /* Form Styles */
-.radio_buttons{
+.form{
   display: flex;
   flex-direction: column;
-  align-items: start;
 }
 
-.option{
+.request{
   display: flex;
-  flex-direction: row;
-  padding-top: 5px;
-}
-
-.request_email {
   padding-top: 20px;
+  padding-left: 20px;
 }
 
-.request_location {
-  padding-top: 15px;
+.input{
+  align-self: flex-end;
 }
 
-.request_time {
-  padding-top: 15px;
+.label{
+  width: 100px;
+  align-self: flex-start;
 }
 
-.submit_button {
-  padding-top: 15px;
-  padding-left: 250px;
-}
-
-.left_alignment{
-  padding-left: 80px;
+.submit_button{
+  padding-left: 350px;
+  padding-top: 20px;
 }
 
 /* Footer Styles */
@@ -55,7 +47,7 @@ body {
 }
 
 
-
+/* Navigation Page */
 nav ul li a:hover,
 nav ul li a:active {
   color: rgb(161, 127, 3);
@@ -63,15 +55,6 @@ nav ul li a:active {
 
 .hidden{
   display: none !important;
-}
-
-
-.hamburger{
-  width: 70px;
-}
-
-.cancel{
-  width: 70px;
 }
 
 nav {
@@ -101,22 +84,69 @@ nav {
     color: #ccdeef;
   }
 
-  img {
-    width:200px;
-  }
 
   a{
     text-decoration: none;
     color: #354a5e;
   }
 
+
+/* FAQ Page */
   .indent{
     padding-left: 30px;
   }
 
-  .jwl1{
+  .verticalTriangle{
+    width: 40px;
+    height: 40px;
+  }
 
-    padding-left: 20px;
+  .horizontalTriangle{
+    width: 40px;
+    height: 40px;
+  }
+
+  .question{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .q{
+    color:#f3e9e3ca
+  }
+
+  .freq{
+    color: #196503;
+  }
+
+  .park{
+    width:300px;
+  }
+
+/* Vendors Page */
+
+  .craft{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sources{
+    font-size: small;
+  }
+  .desc{
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #7c3000;
+    border-width: 5px;
+    background-color: #2b6d01;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align:justify;
+  }
+
+  .jwl1{
+      padding-left: 20px;
   }
 
   .jwl2{
@@ -204,6 +234,12 @@ nav {
     padding-top: 15px;
  }
 
+ .craft-pics{
+  display: flex;
+  flex-direction:row;
+  align-content:space-between;
+}
+ /* Entertainment Page */
  .fire{
     padding-top: 20px;
     padding-left: 20px;
@@ -216,50 +252,15 @@ nav {
     width: 60%;
  }
 
- .desc{
-  border-style: solid;
-  border-radius: 25px;
-  border-color: #7c3000;
-  border-width: 5px;
-  background-color: #2b6d01;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align:justify;
- }
 
+/* Body */
  h1{
   font-family: cursive;
   color: #e1e2d4;
  }
 
-.verticalTriangle{
-  width: 40px;
-  height: 40px;
-}
 
-.horizontalTriangle{
-  width: 40px;
-  height: 40px;
-}
-
-.question{
-  display: flex;
-  flex-direction: row;
-}
-
-
-.q{
-  color:#f3e9e3ca
-}
-
-.freq{
-  color: #196503;
-}
-
-.park{
-  width:300px;
-}
-
+/* Home Page */
 .description{
   padding-bottom: 15px;
 }
@@ -272,12 +273,6 @@ nav {
   display: flex;
   flex-direction: row;
 }
-.craft-pics{
-  display: flex;
-  flex-direction:row;
-  align-content:space-between;
-}
-
 
 .home{
   display: flex;
@@ -291,17 +286,6 @@ nav {
   justify-content: center;
   justify-items: center;
 }
-
-.craft{
-  display: flex;
-  flex-direction: row;
-}
-
-.sources{
-  font-size: small;
-}
-
-
 
   @media (min-width: 600px){
     .home{display: flex; flex-direction: row; }

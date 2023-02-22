@@ -24,9 +24,6 @@ $faq = '';
 <?php include 'includes/header.php'; ?>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
-<img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">
-<img id="cancel" class="cancel hidden" alt="" src="images/cancel.png">
-
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <p class="description">Apple Harvest Festival will host plenty of farmstand fresh apples and produce, delectable apple and seasonal baked goods, a variety of food trucks offering tasty bites, and a craft fair with artisans from around the region. There will also be live music and entertainment, plus a cider trail to enjoy refreshing cider in store and plenty of great apple and apples-inspired products for sale inside shops in and around Downtown.</p>

@@ -24,8 +24,6 @@ $faq = '';
 <?php include 'includes/header.php'; ?>
 <!-- Source:  THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
-<img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">
-<img id="cancel" class="cancel hidden" alt="" src="images/cancel.png">
 
 <!-- Source:  THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="desc">

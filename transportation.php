@@ -32,40 +32,40 @@ $faq = '';
 
 <form id="transportation-request" action="transportation-confirmation.php" method="post" novalidate>
 
-        <div class="request_email">
-            <div class="right_alignment"> <label for="email_address">Email</label> </div>
-            <div class="left_alignment"> <input type="email" name="email_address" id="request_email" /> </div>
+      <div class="form">
+        <div class="request">
+            <div class="label"> <label for="email_address">Email</label> </div>
+            <div class="input"> <input type="email" name="email_address" id="request_email" /> </div>
         </div>
 
-        <div class="request_location">
-        <div class="right_alignment"> <label for="location">Location</label> </div>
-        <div class="left_alignment">  <input type="text" name="location" id="request-location" /> </div>
+        <div class="request">
+        <div class="label"> <label for="location">Location</label> </div>
+        <div class="input">  <input type="text" name="location" id="request-location" /> </div>
         </div>
 
-        <div class="request_time" role="group" aria-labelledby="time_options">
-          <div id="time_options">Time</div>
+        <div class="request" role="group" aria-labelledby="time_options">
+          <div class="label" id="time_options">Time</div>
 
-          <div class="radio_buttons left_alignment">
-         <div class="option">
+         <div class="input">
           <input type="radio" id="nine" name="time" value="9AM" />
           <label for="nine">9 AM</label>
-         </div>
 
-         <div class="option">
+
+         <div>
           <input type="radio" id="ten" name="time" value="10AM" />
           <label for="ten">10 AM</label>
          </div>
 
-         <div class="option">
+         <div>
           <input type="radio" id="eleven" name="time" value="11AM" />
           <label for="eleven">11 AM</label>
          </div>
-
-        </div>
         </div>
 
+        </div>
 
-        <div class="submit_button right_alignment">
+
+        <div class="submit_button">
           <input id="submit" type="submit" value="Request Transportation" />
         </div>
       </form>
