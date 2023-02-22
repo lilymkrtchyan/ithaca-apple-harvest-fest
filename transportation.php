@@ -24,16 +24,26 @@ $faq = '';
 <?php include 'includes/header.php'; ?>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
+<div class="map_and_buttons">
 <img id="bus10" alt="bus 10 route" src="images/bus10_rescaled.png">
-<img id="bus11" class="bus 11 route" alt="" src="images/bus11_rescaled.png">
-<img id="bus13" class="bus 13 route" alt="" src="images/bus13_rescaled.png">
-<img id="bus14" class="bus 14 route" alt="" src="images/bus14_rescaled.png">
-<img id="bus17" class="bus 17 route" alt="" src="images/bus17_rescaled.png">
+<img id="bus11" class="hidden" alt="bus 11 route" src="images/bus11_rescaled.png">
+<img id="bus13" class="hidden" alt="bus 13 route" src="images/bus13_rescaled.png">
+<img id="bus14" class="hidden" alt="bus 14 route" src="images/bus14_rescaled.png">
+<img id="bus17" class="hidden" alt="bus 17 route" src="images/bus17_rescaled.png">
 
-
-
-
-
+<div class="buttons">
+<button type="button" class="bus10">10</button>
+<button type="button" class="bus11">11</button>
+<button type="button" class="bus13">13</button>
+<button type="button" class="bus14">14</button>
+<button type="button" class="bus17">17</button>
+<button type="button" class="bus20">20</button>
+<button type="button" class="bus21">21</button>
+<button type="button" class="bus30">30</button>
+<button type="button" class="bus32">32</button>
+<button type="button" class="bus40">40</button>
+</div>
+</div>
 
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
