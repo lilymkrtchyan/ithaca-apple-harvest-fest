@@ -32,16 +32,16 @@ $faq = '';
 <img id="bus17" class="hidden" alt="bus 17 route" src="images/bus17_rescaled.png">
 
 <div class="buttons">
-<button type="button" class="bus10">10</button>
-<button type="button" class="bus11">11</button>
-<button type="button" class="bus13">13</button>
-<button type="button" class="bus14">14</button>
-<button type="button" class="bus17">17</button>
-<button type="button" class="bus20">20</button>
-<button type="button" class="bus21">21</button>
-<button type="button" class="bus30">30</button>
-<button type="button" class="bus32">32</button>
-<button type="button" class="bus40">40</button>
+<button id="b10" type="button" class="bus10">10</button>
+<button id="b11" type="button" class="bus11">11</button>
+<button id="b13" type="button" class="bus13">13</button>
+<button id="b14" type="button" class="bus14">14</button>
+<button id="b17" type="button" class="bus17">17</button>
+<button id="b20" type="button" class="bus20">20</button>
+<button id="b21" type="button" class="bus21">21</button>
+<button id="b30" type="button" class="bus30">30</button>
+<button id="b32" type="button" class="bus32">32</button>
+<button id="b40" type="button" class="bus40">40</button>
 </div>
 </div>
 

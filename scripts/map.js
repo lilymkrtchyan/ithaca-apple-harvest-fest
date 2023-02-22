@@ -1,6 +1,131 @@
-$('#hamburgermenu').click(function(){
-    $('#nav').removeClass('hidden');
-    $('#nav').addClass('narrow');
-    $('#cancel').removeClass('hidden');
-    $('#hamburgermenu').addClass('hidden');
+
+$('#b11').click(function(){
+    $('#bus11').removeClass('hidden');
+    $('#bus10').addClass('hidden');
+    $('#bus13').addClass('hidden');
+    $('#bus14').addClass('hidden');
+    $('#bus17').addClass('hidden');
+    $('#bus20').addClass('hidden');
+    $('#bus21').addClass('hidden');
+    $('#bus30').addClass('hidden');
+    $('#bus32').addClass('hidden');
+    $('#bus40').addClass('hidden');
+    })
+
+$('#b13').click(function(){
+    $('#b13').removeClass('hidden');
+    $('#b10').addClass('hidden');
+    $('#bus11').addClass('hidden');
+    $('#bus14').addClass('hidden');
+    $('#bus17').addClass('hidden');
+    $('#bus20').addClass('hidden');
+    $('#bus21').addClass('hidden');
+    $('#bus30').addClass('hidden');
+    $('#bus32').addClass('hidden');
+    $('#bus40').addClass('hidden');
+    })
+
+$('#b10').click(function(){
+    $('#bus10').removeClass('hidden');
+    $('#bus13').addClass('hidden');
+    $('#bus11').addClass('hidden');
+    $('#bus14').addClass('hidden');
+    $('#bus17').addClass('hidden');
+    $('#bus20').addClass('hidden');
+    $('#bus21').addClass('hidden');
+    $('#bus30').addClass('hidden');
+    $('#bus32').addClass('hidden');
+    $('#bus40').addClass('hidden');
+    })
+
+$('#b14').click(function(){
+    $('#bus14').removeClass('hidden');
+    $('#bus13').addClass('hidden');
+    $('#bus11').addClass('hidden');
+    $('#bus10').addClass('hidden');
+    $('#bus17').addClass('hidden');
+    $('#bus20').addClass('hidden');
+    $('#bus21').addClass('hidden');
+    $('#bus30').addClass('hidden');
+    $('#bus32').addClass('hidden');
+    $('#bus40').addClass('hidden');
+    })
+
+
+$('#b17').click(function(){
+    $('#bus17').removeClass('hidden');
+    $('#bus13').addClass('hidden');
+    $('#bus11').addClass('hidden');
+    $('#bus10').addClass('hidden');
+    $('#bus14').addClass('hidden');
+    $('#bus20').addClass('hidden');
+    $('#bus21').addClass('hidden');
+    $('#bus30').addClass('hidden');
+    $('#bus32').addClass('hidden');
+    $('#bus40').addClass('hidden');
+    })
+
+$('#b20').click(function(){
+    $('#bus20').removeClass('hidden');
+    $('#bus13').addClass('hidden');
+    $('#bus11').addClass('hidden');
+    $('#bus10').addClass('hidden');
+    $('#bus14').addClass('hidden');
+    $('#bus17').addClass('hidden');
+    $('#bus21').addClass('hidden');
+    $('#bus30').addClass('hidden');
+    $('#bus32').addClass('hidden');
+    $('#bus40').addClass('hidden');
+    })
+
+$('#b21').click(function(){
+    $('#bus21').removeClass('hidden');
+    $('#bus13').addClass('hidden');
+    $('#bus11').addClass('hidden');
+    $('#bus10').addClass('hidden');
+    $('#bus14').addClass('hidden');
+    $('#bus17').addClass('hidden');
+    $('#bus20').addClass('hidden');
+    $('#bus30').addClass('hidden');
+    $('#bus32').addClass('hidden');
+    $('#bus40').addClass('hidden');
+    })
+
+$('#b30').click(function(){
+    $('#bus30').removeClass('hidden');
+    $('#bus13').addClass('hidden');
+    $('#bus11').addClass('hidden');
+    $('#bus10').addClass('hidden');
+    $('#bus14').addClass('hidden');
+    $('#bus17').addClass('hidden');
+    $('#bus20').addClass('hidden');
+    $('#bus21').addClass('hidden');
+    $('#bus32').addClass('hidden');
+    $('#bus40').addClass('hidden');
+    })
+
+$('#b32').click(function(){
+    $('#bus32').removeClass('hidden');
+    $('#bus13').addClass('hidden');
+    $('#bus11').addClass('hidden');
+    $('#bus10').addClass('hidden');
+    $('#bus14').addClass('hidden');
+    $('#bus17').addClass('hidden');
+    $('#bus20').addClass('hidden');
+    $('#bus21').addClass('hidden');
+    $('#bus30').addClass('hidden');
+    $('#bus40').addClass('hidden');
+    })
+
+$('#b40').click(function(){
+    $('#bus40').removeClass('hidden');
+    $('#bus13').addClass('hidden');
+    $('#bus11').addClass('hidden');
+    $('#bus10').addClass('hidden');
+    $('#bus14').addClass('hidden');
+    $('#bus17').addClass('hidden');
+    $('#bus20').addClass('hidden');
+    $('#bus21').addClass('hidden');
+    $('#bus30').addClass('hidden');
+    $('#bus32').addClass('hidden');
     })
