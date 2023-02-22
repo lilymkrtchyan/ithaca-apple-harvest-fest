@@ -7,7 +7,6 @@
       <li class="<?php echo $vendors; ?>"><a href="vendor.php">Vendors</a></li>
       <li class="<?php echo $entertainment; ?>"><a href="entertainment.php">Entertainment</a></li>
       <li class="<?php echo $transportation; ?>"><a href="transportation.php">Transportation</a></li>
-      <li class="<?php echo $transportation_confirmation; ?>"><a href="transportation-confirmation.php">Transportation</a></li>
       <li class="<?php echo $faq; ?>"><a href="faq.php">FAQ</a></li>
     </ul>
   </nav>
