@@ -14,7 +14,7 @@ $faq = '';
 
 <head>
   <meta charset="UTF-8">
-  <title>home</title>
+  <title>Transportation</title>
   <link rel="stylesheet" type="text/css" href="styles/site.css" />
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 </head>
@@ -30,18 +30,28 @@ $faq = '';
 <img id="bus13" class="hidden" alt="bus 13 route" src="images/bus13_rescaled.png">
 <img id="bus14" class="hidden" alt="bus 14 route" src="images/bus14_rescaled.png">
 <img id="bus17" class="hidden" alt="bus 17 route" src="images/bus17_rescaled.png">
+<img id="bus20" class="hidden" alt="bus 20 route" src="images/bus20_new.png">
+<img id="bus21" class="hidden" alt="bus 21 route" src="images/bus21_rescaled.png">
+<img id="bus30" class="hidden" alt="bus 30 route" src="images/bus30_rescaled.png">
+<img id="bus32" class="hidden" alt="bus 32 route" src="images/bus32_rescaled.png">
+<img id="bus40" class="hidden" alt="bus 40 route" src="images/bus40_rescaled.png">
+
 
 <div class="buttons">
-<button id="b10" type="button" class="bus10">10</button>
-<button id="b11" type="button" class="bus11">11</button>
-<button id="b13" type="button" class="bus13">13</button>
-<button id="b14" type="button" class="bus14">14</button>
-<button id="b17" type="button" class="bus17">17</button>
-<button id="b20" type="button" class="bus20">20</button>
-<button id="b21" type="button" class="bus21">21</button>
-<button id="b30" type="button" class="bus30">30</button>
-<button id="b32" type="button" class="bus32">32</button>
-<button id="b40" type="button" class="bus40">40</button>
+<div class="button-col-1">
+<button type="button" id="b10" class="bus10">10 Cornell - Commons</button>
+<button type="button" id="b11" class="bus11">11 Ithaca College - Commons</button>
+<button type="button" id="b13" class="bus13">13 IHS - Northside - Commons</button>
+<button type="button" id="b14" class="bus14">14 West Hill - Hospital - Commons</button>
+<button type="button" id="b17" class="bus17">17 TCAT - Fall Creek - Commons</button>
+</div>
+<div class="button-col-2">
+<button type="button" id="b20" class="bus20">20 Enfield - Commons</button>
+<button type="button" id="b21" class="bus21">21 Trumansburg - Commons</button>
+<button type="button" id="b30" class="bus30">30 Commons - Cornell - Shops at Ithaca Mall</button>
+<button type="button" id="b32" class="bus32">32 Airport - Cornell - Commons</button>
+<button type="button" id="b40" class="bus40">40 Groton - Freewille - Cornell - Commons</button>
+</div>
 </div>
 </div>
 
@@ -90,13 +100,11 @@ $faq = '';
 
 
 
-
+<?php include 'includes/contact.php'; ?>
 
 <script src="scripts/jquery-3.6.1.js"></script>
 
-<script src="scripts/hamburgerMenu.js"></script>
-
-<?php include 'includes/contact.php'; ?>
+<script src="scripts/map.js"></script>
 </body>
 
 </html>

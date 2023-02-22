@@ -13,8 +13,8 @@ $('#b11').click(function(){
     })
 
 $('#b13').click(function(){
-    $('#b13').removeClass('hidden');
-    $('#b10').addClass('hidden');
+    $('#bus13').removeClass('hidden');
+    $('#bus10').addClass('hidden');
     $('#bus11').addClass('hidden');
     $('#bus14').addClass('hidden');
     $('#bus17').addClass('hidden');
