@@ -15,13 +15,13 @@ $faq = '';
 <head>
   <meta charset="UTF-8">
   <title>Vendor</title>
-  <link rel="stylesheet" type="text/css" href="styles/site.css" />
+  <link rel="stylesheet" type="text/css" href="/public/styles/site.css" />
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 </head>
 
 <body>
 
-<?php include 'includes/header.php'; ?>
+<?php include('includes/header.php'); ?>
 <!-- Source:  THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 
@@ -51,7 +51,7 @@ $faq = '';
   </ul>
 
   <div>
-    <img class="app1" src="images/apple-basket-many.jpg" alt="table stand that sells fresh apples">
+    <img class="app1" src="public/images/apple-basket-many.jpg" alt="table stand that sells fresh apples">
   </div>
 
 </div>
@@ -75,12 +75,12 @@ $faq = '';
 
   <div class="wines">
     <div class="thumbnail">
-      <img id="img4" class="wines4" src="images/maple-syrup.jpg" alt="blubery stand">
-      <img id="img3" class="wines3" src="images/apple-cider-jugs.jpg" alt="jar stand and ines">
+      <img id="img4" class="wines4" src="public/images/maple-syrup.jpg" alt="blubery stand">
+      <img id="img3" class="wines3" src="public/images/apple-cider-jugs.jpg" alt="jar stand and ines">
     </div>
 
-    <img id="img1" class="wines1" src="images/maple-syrup.jpg" alt="blubery stand">
-    <img id="img2" class="wines2 hidden" src="images/apple-cider-jugs.jpg" alt="jar stand and ines">
+    <img id="img1" class="wines1" src="public/images/maple-syrup.jpg" alt="blubery stand">
+    <img id="img2" class="wines2 hidden" src="public/images/apple-cider-jugs.jpg" alt="jar stand and ines">
 
   </div>
 </div>
@@ -124,18 +124,18 @@ $faq = '';
   <div class="centerr">
 
     <div class="foodSmall">
-      <img id="fd4" class="food" src="images/fudge.jpg" alt="apple pie that has Ithaca written on it">
-      <img id="fd5" class="food" src="images/donut-sign-vendor.jpg" alt="donut stand">
-      <img id="fd6" class="food" src="images/cider-donuts-horizontal.jpg" alt="mac n cheese">
+      <img id="fd4" class="food" src="public/images/fudge.jpg" alt="apple pie that has Ithaca written on it">
+      <img id="fd5" class="food" src="public/images/donut-sign-vendor.jpg" alt="donut stand">
+      <img id="fd6" class="food" src="public/images/cider-donuts-horizontal.jpg" alt="mac n cheese">
     </div>
   <div>
 
-  <img id="fd1" class="food1" src="images/fudge.jpg" alt="apple pie that has Ithaca written on it">
-  <img id="fd2" class="food2 hidden" src="images/donut-sign-vendor.jpg" alt="donut stand">
+  <img id="fd1" class="food1" src="public/images/fudge.jpg" alt="apple pie that has Ithaca written on it">
+  <img id="fd2" class="food2 hidden" src="public/images/donut-sign-vendor.jpg" alt="donut stand">
 </div>
 
 <div>
-  <img id="fd3" class="food3 hidden" src="images/cider-donuts-horizontal.jpg" alt="mac n cheese">
+  <img id="fd3" class="food3 hidden" src="public/images/cider-donuts-horizontal.jpg" alt="mac n cheese">
 </div>
 </div>
 </div>
@@ -147,19 +147,19 @@ $faq = '';
 <div class = "craft-pics">
 
  <div class="crafters">
-  <img id="c1" class="jewelry" src="images/jew1.jpg" alt="jewelry shop at the festival">
-  <img id="c2" class="jewelry" src="images/ring.jpg" alt="jewelry stand">
-  <img id="c3" class="jewelry" src="images/watch.jpg" alt="wood jewelry">
-  <img id="c4" class="jewelry" src="images/earings.jpg" alt="earings">
-  <img id="c5" class="jewelry" src="images/tree.jpg" alt="clothes">
+  <img id="c1" class="jewelry" src="public/images/jew1.jpg" alt="jewelry shop at the festival">
+  <img id="c2" class="jewelry" src="public/images/ring.jpg" alt="jewelry stand">
+  <img id="c3" class="jewelry" src="public/images/watch.jpg" alt="wood jewelry">
+  <img id="c4" class="jewelry" src="public/images/earings.jpg" alt="earings">
+  <img id="c5" class="jewelry" src="public/images/tree.jpg" alt="clothes">
  </div>
 
 
-<img id="craft1" class="jwl1" src="images/jew1.jpg" alt="jewelry shop at the festival">
-<img id="craft2" class="jwl2 hidden" src="images/ring.jpg" alt="jewelry stand">
-<img id="craft3" class="jwl3 hidden" src="images/watch.jpg" alt="wood jewelry">
-<img id="craft4" class="jwl4 hidden" src="images/earings.jpg" alt="earings">
-<img id="craft5" class="jwl5 hidden" src="images/tree.jpg" alt="clothes">
+<img id="craft1" class="jwl1" src="public/images/jew1.jpg" alt="jewelry shop at the festival">
+<img id="craft2" class="jwl2 hidden" src="public/images/ring.jpg" alt="jewelry stand">
+<img id="craft3" class="jwl3 hidden" src="public/images/watch.jpg" alt="wood jewelry">
+<img id="craft4" class="jwl4 hidden" src="public/images/earings.jpg" alt="earings">
+<img id="craft5" class="jwl5 hidden" src="public/images/tree.jpg" alt="clothes">
 
 <p class="sources">Sources: Bella Forma Jewelry, Orocal</p>
 <p class="sources">Holzkern, Novica, Etsy </p>
@@ -247,13 +247,11 @@ $faq = '';
 </div>
 
 
-<script src="scripts/jquery-3.6.1.js"></script>
+<script src="public/scripts/jquery-3.6.1.js"></script>
 
-<script src="scripts/gallery.js"></script>
+<script src="public/scripts/gallery.js"></script>
 
-<script src="scripts/hamburgerMenu.js"></script>
-
-<?php include 'includes/contact.php'; ?>
+<?php include('includes/contact.php'); ?>
 </body>
 
 </html>

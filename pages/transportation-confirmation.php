@@ -15,25 +15,33 @@ $faq = '';
 <head>
   <meta charset="UTF-8">
   <title>home</title>
-  <link rel="stylesheet" type="text/css" href="styles/site.css" />
+  <link rel="stylesheet" type="text/css" href="/public/styles/site.css" />
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 </head>
 
 <body>
 
-<?php include 'includes/header.php'; ?>
+
+
 <!-- <h1>Form Confirmation</h1> -->
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
-<img id="hamburgermenu" class="hamburger" alt="" src="images/hamb.png">
-<img id="cancel" class="cancel hidden" alt="" src="images/cancel.png">
+<header>
+  <h1 id="page"> Transportation - Ithaca Apple Harvest Festival</h1>
 
+<nav id="menu">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/vendor">Vendors</a></li>
+      <li><a href="/entertainment">Entertainment</a></li>
+      <li><a href="/transportation">Transportation</a></li>
+      <li><a href="/faq">FAQ</a></li>
+    </ul>
+  </nav>
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <main>
-
-    <h2><?php echo $page; ?></h2>
 
     <p>Thank you for filling out our transportation request! We will follow up about the available routes via email.</p>
 
@@ -43,27 +51,25 @@ $faq = '';
 
    <div class="align">
       <dt>Email:</dt>
-      <dd><?php echo $_POST['email_address'];?></dd>
+      <dd><?php echo htmlspecialchars($email_address); ?></dd>
    </div>
 
       <div class='align'>
       <dt>Location</dt>
-      <dd><?php echo $_POST['location'];?></dd>
+      <dd><?php echo htmlspecialchars($location); ?></dd>
       </div>
 
       <div class='align'>
       <dt>Time</dt>
-      <dd><?php echo $_POST['time'];?></dd>
+      <dd><?php echo htmlspecialchars($time); ?></dd>
       </div>
     </dl>
 
 </main>
 
-<script src="scripts/jquery-3.6.1.js"></script>
 
-<script src="scripts/hamburgerMenu.js"></script>
+<p class="contact_info">Contact Information: (607) 277-8679</p>
 
-<?php include 'includes/contact.php'; ?>
 
 </body>
 

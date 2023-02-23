@@ -15,26 +15,26 @@ $faq = '';
 <head>
   <meta charset="UTF-8">
   <title>Transportation</title>
-  <link rel="stylesheet" type="text/css" href="styles/site.css" />
+  <link rel="stylesheet" type="text/css" href="/public/styles/site.css" />
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 </head>
 
 <body>
 
-<?php include 'includes/header.php'; ?>
+<?php include('includes/header.php'); ?>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <div class="map_and_buttons">
-<img id="bus10" alt="bus 10 route" src="images/bus10_rescaled.png">
-<img id="bus11" class="hidden" alt="bus 11 route" src="images/bus11_rescaled.png">
-<img id="bus13" class="hidden" alt="bus 13 route" src="images/bus13_rescaled.png">
-<img id="bus14" class="hidden" alt="bus 14 route" src="images/bus14_rescaled.png">
-<img id="bus17" class="hidden" alt="bus 17 route" src="images/bus17_rescaled.png">
-<img id="bus20" class="hidden" alt="bus 20 route" src="images/bus20_new.png">
-<img id="bus21" class="hidden" alt="bus 21 route" src="images/bus21_rescaled.png">
-<img id="bus30" class="hidden" alt="bus 30 route" src="images/bus30_rescaled.png">
-<img id="bus32" class="hidden" alt="bus 32 route" src="images/bus32_rescaled.png">
-<img id="bus40" class="hidden" alt="bus 40 route" src="images/bus40_rescaled.png">
+<img id="bus10" alt="bus 10 route" src="public/images/bus10_rescaled.png">
+<img id="bus11" class="hidden" alt="bus 11 route" src="public/images/bus11_rescaled.png">
+<img id="bus13" class="hidden" alt="bus 13 route" src="public/images/bus13_rescaled.png">
+<img id="bus14" class="hidden" alt="bus 14 route" src="public/images/bus14_rescaled.png">
+<img id="bus17" class="hidden" alt="bus 17 route" src="public/images/bus17_rescaled.png">
+<img id="bus20" class="hidden" alt="bus 20 route" src="public/images/bus20_new.png">
+<img id="bus21" class="hidden" alt="bus 21 route" src="public/images/bus21_rescaled.png">
+<img id="bus30" class="hidden" alt="bus 30 route" src="public/images/bus30_rescaled.png">
+<img id="bus32" class="hidden" alt="bus 32 route" src="public/images/bus32_rescaled.png">
+<img id="bus40" class="hidden" alt="bus 40 route" src="public/images/bus40_rescaled.png">
 
 
 <div class="buttons">
@@ -58,7 +58,7 @@ $faq = '';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
-<form id="transportation-request" action="transportation-confirmation.php" method="post" novalidate>
+<form id="transportation-request" action="pages/transportation-confirmation.php" method="post" novalidate>
 
       <div class="form">
         <div class="request">
@@ -100,11 +100,11 @@ $faq = '';
 
 
 
-<?php include 'includes/contact.php'; ?>
+<?php include('includes/contact.php'); ?>
 
-<script src="scripts/jquery-3.6.1.js"></script>
+<script src="public/scripts/jquery-3.6.1.js"></script>
 
-<script src="scripts/map.js"></script>
+<script src="public/scripts/map.js"></script>
 </body>
 
 </html>

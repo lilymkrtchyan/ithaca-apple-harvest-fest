@@ -15,20 +15,20 @@ $faq = 'this page';
 <head>
   <meta charset="UTF-8">
   <title>faq</title>
-  <link rel="stylesheet" type="text/css" href="styles/site.css" />
+  <link rel="stylesheet" type="text/css" href="/public/styles/site.css" />
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 </head>
 
 <body>
 
-<?php include 'includes/header.php'; ?>
+<?php include('includes/header.php'); ?>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q1" class="verticalTriangle" alt="" src="images/triangle.png">
-    <img id="q11" class="horizontalTriangle hidden" alt="" src="images/triangleHorizontal.png">
+    <img id="q1" class="verticalTriangle" alt="" src="public/images/triangle.png">
+    <img id="q11" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
     <h2 class="q">How much money should I bring?</h2>
 </div>
 
@@ -37,8 +37,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q2" class="verticalTriangle" alt="" src="images/triangle.png">
-    <img id="q22" class="horizontalTriangle hidden" alt="" src="images/triangleHorizontal.png">
+    <img id="q2" class="verticalTriangle" alt="" src="public/images/triangle.png">
+    <img id="q22" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
     <h2 class="q">Can I pay with a credit card?</h2>
 </div>
 
@@ -47,8 +47,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q3" class="verticalTriangle" alt="" src="images/triangle.png">
-    <img id="q33" class="horizontalTriangle hidden" alt="" src="images/triangleHorizontal.png">
+    <img id="q3" class="verticalTriangle" alt="" src="public/images/triangle.png">
+    <img id="q33" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
     <h2 class="q">Can I bring my dog?</h2>
 </div>
 
@@ -57,8 +57,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q4" class="verticalTriangle" alt="" src="images/triangle.png">
-    <img id="q44" class="horizontalTriangle hidden" alt="" src="images/triangleHorizontal.png">
+    <img id="q4" class="verticalTriangle" alt="" src="public/images/triangle.png">
+    <img id="q44" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
     <h2 class="q">What should I wear?</h2>
 </div>
 
@@ -67,8 +67,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q5" class="verticalTriangle" alt="" src="images/triangle.png">
-    <img id="q55" class="horizontalTriangle hidden" alt="" src="images/triangleHorizontal.png">
+    <img id="q5" class="verticalTriangle" alt="" src="public/images/triangle.png">
+    <img id="q55" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
     <h2 class="q">When is the best time to attend?</h2>
 </div>
 
@@ -77,8 +77,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q6" class="verticalTriangle" alt="" src="images/triangle.png">
-    <img id="q66" class="horizontalTriangle hidden" alt="" src="images/triangleHorizontal.png">
+    <img id="q6" class="verticalTriangle" alt="" src="public/images/triangle.png">
+    <img id="q66" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
     <h2 class="q">Will there be alcohol?</h2>
 </div>
 
@@ -87,8 +87,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q7" class="verticalTriangle" alt="" src="images/triangle.png">
-    <img id="q77" class="horizontalTriangle hidden" alt="" src="images/triangleHorizontal.png">
+    <img id="q7" class="verticalTriangle" alt="" src="public/images/triangle.png">
+    <img id="q77" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
     <h2 class="q">Directions & Parking</h2>
 </div>
 
@@ -99,17 +99,15 @@ $faq = 'this page';
 <p id="a10" class="indent hidden">For additional downtown parking, visit <a href="https://www.cityofithaca.org/243/Parking">this</a> website.</p>
 
 
-<img id="parking" class=" indent park hidden" alt="map of Ithaca parking" src="images/parkingphoto.PNG">
+<img id="parking" class=" indent park hidden" alt="map of Ithaca parking" src="public/images/parkingphoto.PNG">
 <p id="parkSource" class="indent hidden">Source: Google Maps</p>
 
 
-<script src="scripts/jquery-3.6.1.js"></script>
+<script src="public/scripts/jquery-3.6.1.js"></script>
 
-<script src="scripts/accordion.js"></script>
+<script src="public/scripts/accordion.js"></script>
 
-<script src="scripts/hamburgerMenu.js"></script>
-
-<?php include 'includes/contact.php'; ?>
+<?php include('includes/contact.php'); ?>
 </body>
 
 

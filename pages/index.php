@@ -15,13 +15,13 @@ $faq = '';
 <head>
   <meta charset="UTF-8">
   <title>home</title>
-  <link rel="stylesheet" type="text/css" href="styles/site.css" />
+  <link rel="stylesheet" type="text/css" href="/public/styles/site.css" />
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 </head>
 
 <body>
 
-<?php include 'includes/header.php'; ?>
+<?php include('includes/header.php'); ?>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 
@@ -31,7 +31,7 @@ $faq = '';
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="home">
   <div>
-    <img class="applebasket" alt="image of apples in a basket" src="images/apple-basket-many.jpg">
+    <img class="applebasket" alt="image of apples in a basket" src="public/images/apple-basket-many.jpg">
   </div>
 
   <div>
@@ -55,11 +55,9 @@ $faq = '';
 </div>
 
 
-<script src="scripts/jquery-3.6.1.js"></script>
+<script src="public/scripts/jquery-3.6.1.js"></script>
 
-<script src="scripts/hamburgerMenu.js"></script>
-
-<?php include 'includes/contact.php'; ?>
+<?php include('includes/contact.php'); ?>
 </body>
 
 </html>

@@ -15,13 +15,13 @@ $faq = '';
 <head>
   <meta charset="UTF-8">
   <title>entertainment</title>
-  <link rel="stylesheet" type="text/css" href="styles/site.css" />
+  <link rel="stylesheet" type="text/css" href="/public/styles/site.css" />
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 </head>
 
 <body>
 
-<?php include 'includes/header.php'; ?>
+<?php include('includes/header.php'); ?>
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 
@@ -40,7 +40,7 @@ $faq = '';
     <li>5:00pm - Neo Project</li>
   </ul>
   <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
-  <img class="fire" alt="commons area" src="images/commons-far.jpg">
+  <img class="fire" alt="commons area" src="public/images/commons-far.jpg">
 </div>
 
 
@@ -56,7 +56,7 @@ $faq = '';
 </ul>
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
-<img class="ppl" src="images/popcorn-stall.jpg" alt="popcorn stand">
+<img class="ppl" src="public/images/popcorn-stall.jpg" alt="popcorn stand">
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <h2>Things to do in Ithaca</h2>
@@ -82,13 +82,9 @@ $faq = '';
 <p>Be sure to dine at some of Ithaca's most popular restaurants, like the Ithaca Beer Company, Asia Cuisine, Taste of Thai, Red's Place, Bickering Twins, Hawi, and many many more! Most of these restaurants can be found in the Commons, so they are perfect for dinner after attending the Harvest Festival!</p>
 
 
-<script src="scripts/jquery-3.6.1.js"></script>
+<script src="public/scripts/jquery-3.6.1.js"></script>
 
-<script src="scripts/hamburgerMenu.js"></script>
-
-<script src="scripts/hamburgerMenu.js"></script>
-
-<?php include 'includes/contact.php'; ?>
+<?php include('includes/contact.php'); ?>
 </body>
 
 </html>
