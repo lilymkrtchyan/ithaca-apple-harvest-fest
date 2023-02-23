@@ -172,10 +172,15 @@ body {
 .align{
   display: flex;
   flex-direction: row;
+  width: 200px;
 }
 
-.left{
-  margin-left: 30px;
+.label_output{
+  align-content: start;
+}
+
+.output_data{
+  align-content: end;
 }
 
 

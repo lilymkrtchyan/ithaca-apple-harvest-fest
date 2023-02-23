@@ -7,6 +7,10 @@ $entertainment = '';
 $transportation = '';
 $transportation_confirmation = 'this page';
 $faq = '';
+
+$email_address = $_POST["email_address"];
+$location = $_POST["location"];
+$time = $_POST["time"];
 ?>
 
 <!DOCTYPE html>
@@ -47,22 +51,24 @@ $faq = '';
 
     <h3>Transportation Request</h3>
 
-    <dl>
+
 
    <div class="align">
-      <dt>Email:</dt>
-      <dd><?php echo htmlspecialchars($email_address); ?></dd>
-   </div>
+   <dl>
+    <div class="label_output">
+    <div class="output_label"> <dt>Email</dt> </div>
+      <dev class="output_data"> <dd><?php echo htmlspecialchars($email_address); ?></dd> </div>
+    </div>
 
-      <div class='align'>
-      <dt>Location</dt>
-      <dd><?php echo htmlspecialchars($location); ?></dd>
-      </div>
+    <div class="label_output">
+    <div class="output_label">  <dt>Location</dt>
+      <div class="output_data"> <dd><?php echo htmlspecialchars($location); ?></dd> </div>
+    </div>
 
-      <div class='align'>
-      <dt>Time</dt>
-      <dd><?php echo htmlspecialchars($time); ?></dd>
-      </div>
+    <div class="label_output">
+    <div class="output_label"><dt>Time</dt> </div>
+      <div class="output_data"><dd><?php echo htmlspecialchars($time); ?></dd></div>
+    </div>
     </dl>
 
 </main>
