@@ -57,11 +57,11 @@ $time = $_POST["time"];
    <dl>
     <div class="label_output">
     <div class="output_label"> <dt>Email</dt> </div>
-      <dev class="output_data"> <dd><?php echo htmlspecialchars($email_address); ?></dd> </div>
+      <div class="output_data"> <dd><?php echo htmlspecialchars($email_address); ?></dd> </div>
     </div>
 
     <div class="label_output">
-    <div class="output_label">  <dt>Location</dt>
+    <div class="output_label">  <dt>Location</dt> </div>
       <div class="output_data"> <dd><?php echo htmlspecialchars($location); ?></dd> </div>
     </div>
 
@@ -70,6 +70,7 @@ $time = $_POST["time"];
       <div class="output_data"><dd><?php echo htmlspecialchars($time); ?></dd></div>
     </div>
     </dl>
+</div>
 
 </main>
 

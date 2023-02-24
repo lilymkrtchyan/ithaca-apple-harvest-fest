@@ -34,9 +34,46 @@ body {
 
 /* Transportation Page */
 
+.route_box_and_images{
+  display: flex;
+  flex-direction: row;
+}
+
+.map_and_buttons{
+  align-self: flex-start;
+}
+
+.route_info_and_disclaimer{
+  align-self: flex-end;
+  margin-left: 150px;
+}
+
+.route_info{
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  border-color: black black black black;
+  font-size: 15px;
+  width: 700px;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.route_info p {
+  font-size: 15px;
+}
+
+.winter_schedules{
+  color:black;
+}
+
 .caption{
   font-size: 12px;
   padding-left: 50px;
+}
+
+.caption2{
+  font-size:15px;
 }
 
 .bus10 {
@@ -182,16 +219,20 @@ body {
 /* Confirmation Page Styles */
 .align{
   display: flex;
-  flex-direction: row;
-  width: 200px;
+  width: 20%;
 }
 
 .label_output{
-  align-content: start;
+  display: flex;
+}
+
+.output_label{
+  align-self: flex-start;
+  width: 100px;
 }
 
 .output_data{
-  align-content: end;
+  align-self: flex-end;
 }
 
 
