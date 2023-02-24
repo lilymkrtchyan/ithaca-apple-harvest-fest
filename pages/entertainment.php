@@ -9,6 +9,7 @@ $transportation_confirmation = '';
 $faq = '';
 ?>
 
+<html lang="en">
 <!DOCTYPE html>
 <html>
 

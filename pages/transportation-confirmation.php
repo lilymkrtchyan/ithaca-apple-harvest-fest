@@ -13,6 +13,7 @@ $location = $_POST["location"];
 $time = $_POST["time"];
 ?>
 
+<html lang="en">
 <!DOCTYPE html>
 <html>
 
@@ -51,7 +52,7 @@ $time = $_POST["time"];
 <img id="bus30" class="busimg hidden" alt="bus 30 route" src="/public/images/bus30_rescaled.png">
 <img id="bus32" class="busimg hidden" alt="bus 32 route" src="/public/images/bus32_rescaled.png">
 <img id="bus40" class="busimg hidden" alt="bus 40 route" src="/public/images/bus40_rescaled.png">
-<p class="caption">All the map images are taken from TCAT's official <a href="tcatbus.com">website</a>.</p>
+<p class="caption">All the map images are taken from TCAT's official <a class="website_link" href="tcatbus.com">website</a>.</p>
 <p class="caption">Please visit the website for the complete list of routes available.</p>
 
 <div class="buttons">

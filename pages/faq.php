@@ -9,6 +9,7 @@ $transportation_confirmation = '';
 $faq = 'this page';
 ?>
 
+<html lang="en">
 <!DOCTYPE html>
 <html>
 
@@ -27,8 +28,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q1" class="verticalTriangle" alt="" src="public/images/triangle.png">
-    <img id="q11" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
+    <img id="q1" class="verticalTriangle" alt="show answer" src="public/images/triangle.png">
+    <img id="q11" class="horizontalTriangle hidden" alt="hide answer" src="public/images/triangleHorizontal.png">
     <h2 class="q">How much money should I bring?</h2>
 </div>
 
@@ -37,8 +38,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q2" class="verticalTriangle" alt="" src="public/images/triangle.png">
-    <img id="q22" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
+    <img id="q2" class="verticalTriangle" alt="show answer" src="public/images/triangle.png">
+    <img id="q22" class="horizontalTriangle hidden" alt="hide answer" src="public/images/triangleHorizontal.png">
     <h2 class="q">Can I pay with a credit card?</h2>
 </div>
 
@@ -47,8 +48,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q3" class="verticalTriangle" alt="" src="public/images/triangle.png">
-    <img id="q33" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
+    <img id="q3" class="verticalTriangle" alt="show answer" src="public/images/triangle.png">
+    <img id="q33" class="horizontalTriangle hidden" alt="hide answer" src="public/images/triangleHorizontal.png">
     <h2 class="q">Can I bring my dog?</h2>
 </div>
 
@@ -57,8 +58,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q4" class="verticalTriangle" alt="" src="public/images/triangle.png">
-    <img id="q44" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
+    <img id="q4" class="verticalTriangle" alt="show answer" src="public/images/triangle.png">
+    <img id="q44" class="horizontalTriangle hidden" alt="hide answer" src="public/images/triangleHorizontal.png">
     <h2 class="q">What should I wear?</h2>
 </div>
 
@@ -67,8 +68,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q5" class="verticalTriangle" alt="" src="public/images/triangle.png">
-    <img id="q55" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
+    <img id="q5" class="verticalTriangle" alt="show answer" src="public/images/triangle.png">
+    <img id="q55" class="horizontalTriangle hidden" alt="hide answer" src="public/images/triangleHorizontal.png">
     <h2 class="q">When is the best time to attend?</h2>
 </div>
 
@@ -77,8 +78,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q6" class="verticalTriangle" alt="" src="public/images/triangle.png">
-    <img id="q66" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
+    <img id="q6" class="verticalTriangle" alt="show answer" src="public/images/triangle.png">
+    <img id="q66" class="horizontalTriangle hidden" alt="hide answer" src="public/images/triangleHorizontal.png">
     <h2 class="q">Will there be alcohol?</h2>
 </div>
 
@@ -87,8 +88,8 @@ $faq = 'this page';
 
 <!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 <div class="question">
-    <img id="q7" class="verticalTriangle" alt="" src="public/images/triangle.png">
-    <img id="q77" class="horizontalTriangle hidden" alt="" src="public/images/triangleHorizontal.png">
+    <img id="q7" class="verticalTriangle" alt="show answer" src="public/images/triangle.png">
+    <img id="q77" class="horizontalTriangle hidden" alt="hide answer" src="public/images/triangleHorizontal.png">
     <h2 class="q">Directions & Parking</h2>
 </div>
 
@@ -96,7 +97,7 @@ $faq = 'this page';
 <p id="a7" class="indent hidden">Tompkins Consolidated Area Transit (TCAT) offers public bus transportation from all over the county. One-way fares are \$1.50 per adult. Cornell University students can ride without a fare on weekends and after 6pm with their student ID card.</p>
 <p id="a8" class="indent hidden">Residents and visitors can park in the Seneca, and Cayuga Street garages and walk to anywhere in Downtown Ithaca. Please note the Green Garage is closed for construction.</p>
 <p id="a9" class="indent hidden">Garage parking is \$1.00 per hour in the garages. On-street parking is \$1.50 per hour during the week until 6pm.</p>
-<p id="a10" class="indent hidden">For additional downtown parking, visit <a href="https://www.cityofithaca.org/243/Parking">this</a> website.</p>
+<p id="a10" class="indent hidden">For additional downtown parking, visit <a class="website_link" href="https://www.cityofithaca.org/243/Parking">this</a> website.</p>
 
 
 <img id="parking" class=" indent park hidden" alt="map of Ithaca parking" src="public/images/parkingphoto.PNG">

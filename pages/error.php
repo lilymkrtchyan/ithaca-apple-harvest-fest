@@ -13,6 +13,7 @@ $location = $_POST["location"];
 $time = $_POST["time"];
 ?>
 
+<html lang="en">
 <!DOCTYPE html>
 <html>
 
