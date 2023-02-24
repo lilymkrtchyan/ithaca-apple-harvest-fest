@@ -22,7 +22,6 @@ $faq = '';
 <body>
 
 <?php include('includes/header.php'); ?>
-<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <h2>Do you need a transportation? We got you!</h2>
 <div class="route_box_and_images">
@@ -79,7 +78,6 @@ Mon - Fri: Route serves Feeney Way.      Sat & Sun: Routes serves West Campus.</
 </div>
 </div>
 
-<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <h2>Can't find a suitable transit? We got you!</h2>
 <p>Request a transportation and we will create additional routes based on people's demand.</p>

@@ -18,17 +18,12 @@ $time = $_POST["time"];
 
 <head>
   <meta charset="UTF-8">
-  <title>home</title>
+  <title>Confirmation</title>
   <link rel="stylesheet" type="text/css" href="/public/styles/site.css" />
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 </head>
 
 <body>
-
-
-
-<!-- <h1>Form Confirmation</h1> -->
-<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <header>
   <h1 id="page"> Transportation - Ithaca Apple Harvest Festival</h1>
@@ -43,21 +38,19 @@ $time = $_POST["time"];
     </ul>
   </nav>
 
-<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
-
 <h2>Do you need a transportation? We got you!</h2>
 <div class="route_box_and_images">
 <div class="map_and_buttons">
-<img id="bus10" class="busimg" alt="bus 10 route" src="public/images/bus10_rescaled.png">
-<img id="bus11" class="busimg hidden" alt="bus 11 route" src="public/images/bus11_rescaled.png">
-<img id="bus13" class="busimg hidden" alt="bus 13 route" src="public/images/bus13_rescaled.png">
-<img id="bus14" class="busimg hidden" alt="bus 14 route" src="public/images/bus14_rescaled.png">
-<img id="bus17" class="busimg hidden" alt="bus 17 route" src="public/images/bus17_rescaled.png">
-<img id="bus20" class="busimg hidden" alt="bus 20 route" src="public/images/bus20_new.png">
-<img id="bus21" class="busimg hidden" alt="bus 21 route" src="public/images/bus21_rescaled.png">
-<img id="bus30" class="busimg hidden" alt="bus 30 route" src="public/images/bus30_rescaled.png">
-<img id="bus32" class="busimg hidden" alt="bus 32 route" src="public/images/bus32_rescaled.png">
-<img id="bus40" class="busimg hidden" alt="bus 40 route" src="public/images/bus40_rescaled.png">
+<img id="bus10" class="busimg" alt="bus 10 route" src="/public/images/bus10_rescaled.png">
+<img id="bus11" class="busimg hidden" alt="bus 11 route" src="/public/images/bus11_rescaled.png">
+<img id="bus13" class="busimg hidden" alt="bus 13 route" src="/public/images/bus13_rescaled.png">
+<img id="bus14" class="busimg hidden" alt="bus 14 route" src="/public/images/bus14_rescaled.png">
+<img id="bus17" class="busimg hidden" alt="bus 17 route" src="/public/images/bus17_rescaled.png">
+<img id="bus20" class="busimg hidden" alt="bus 20 route" src="/public/images/bus20_new.png">
+<img id="bus21" class="busimg hidden" alt="bus 21 route" src="/public/images/bus21_rescaled.png">
+<img id="bus30" class="busimg hidden" alt="bus 30 route" src="/public/images/bus30_rescaled.png">
+<img id="bus32" class="busimg hidden" alt="bus 32 route" src="/public/images/bus32_rescaled.png">
+<img id="bus40" class="busimg hidden" alt="bus 40 route" src="/public/images/bus40_rescaled.png">
 <p class="caption">All the map images are taken from TCAT's official <a href="tcatbus.com">website</a>.</p>
 <p class="caption">Please visit the website for the complete list of routes available.</p>
 
@@ -132,7 +125,9 @@ Mon - Fri: Route serves Feeney Way.      Sat & Sun: Routes serves West Campus.</
 
 <p class="contact_info">Contact Information: (607) 277-8679</p>
 
+<script src="/public/scripts/jquery-3.6.1.js"></script>
 
+<script src="/public/scripts/map.js"></script>
 </body>
 
 </html>
