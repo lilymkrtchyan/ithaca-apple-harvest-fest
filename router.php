@@ -70,6 +70,6 @@ if ($php_file = match_routes($request_uri, ROUTES)) {
     // Display 404 page.
 
     //require 404 page
-    require "pages/404.php";
+    require "pages/error.php";
   }
 }
