@@ -90,10 +90,10 @@ Goal 3: Connecting with the community and the friends/family
 
 A sketch + explanation for each webpage
 
-![Home page scetches](scetches/homeScetch.jpg)
-![Vendor page scetches](scetches/vendorsScetch.jpg)
-![Entertainment page scetches](scetches/entertainmentScetch.jpg)
-![Frequently Asked Questions page scetches](scetches/faqScetch.jpg)
+![Home page sketches](scetches/homeScetch.jpg)
+![Vendor page sketches](scetches/vendorsScetch.jpg)
+![Entertainment page sketches](scetches/entertainmentScetch.jpg)
+![Frequently Asked Questions page sketches](scetches/faqScetch.jpg)
 
 All the wide screens have the same horizontal navigation bar that becomes a hamburger menu in the narrow screens. This is a common practice.
 Home page includes a photo of apples to visully introduce the theme and the topic of the festival, as well as the name of the festival and short information about the festival, dates, and location. The dates and time for the narrow screen move under the photo so the user does not scroll horizontally to see that information. This is to accommodate for the narrow screen.
@@ -101,6 +101,26 @@ Entertainment page includes an example photos of entertainment as well as all th
 Vendors page introduces all the vendors divided to categories so that people do not have to surf long lists of every vendors but instead can see the ones that they are interested in.
 Vendors page has galleries to display all the relevant images without taking too much space on the screen.
 FAQ page includes all the frequently asked questions and their answers. It has accordion to make it easy for the users to find the question that they are interested in and not to have to read every single question with its respectful answer.
+
+Updated sketches:
+
+![Home page sketches updated](scetches/home_updated_page.jpg)
+![Vendor page sketches updated](scetches/vendors_updated_page.jpg)
+![Entertainment page sketches updated](scetches/entertainment_updated_page.jpg)
+![Frequently Asked Questions page sketches updated](scetches/faq_updated_page.jpg)
+
+I have resketched the side bar that was supposed to display the contact information to be a footer because I looked up the contact information for the festival and all I could find was one phone number. I think displaying the phone number alone would be more efficient in a form of a footer because it doesn't take lots of space and it is only one item and cannot be stacked horizontally within a sidebar. Because phone number as a contact information is more likely to be presented horizontally, I think it is a better idea to use a footer than to use a side bar. Additionally, putting the contact information as a footer or as a side bar both are common practices, and hence there is not a unique difference in practice which in which one to use. However, using the footer instead of the side bar saves space for content and doesn't display lots of unimportant white space on the side.
+
+![The previous transportation page](scetches/transportation.jpg)
+![The last updated transportation page](scetches/transportation_updated_page.jpg)
+
+I have sketched the parking information to be removed from the transportation page because Anna doesn't have a car and hence displaying this information would be irrelevant. However, this information should still be on the website for the few people who do in fact have a car and who will be looking for parking spots. Additionally, I have added buttons that when clicked show the route of the bus on the map. This would give Anna a good understanding about the route even if she doesn't know well the names of the bus stops. She will also see how long is route and can estimate how long the trip will take. On the right side of the webpage I have sketched a text block that would list the routes of the buses in case Anna has a certain bus stop (or location) in mind and wants to check specifically if the bus will stop there to pick her up. I have not sketched to show all the possible routes that all the buses can take because Anna is a student and there are routes and locations that are more probable than others that Anna would be interested in. That is why I have sketched to show the buses and routes that seem relevant to Anna - a student in Ithaca. However, considering that there are other people who might as well want to take the transportation to the festival or even Anna could be away because of some unknown corcumstances, I have also included the official website for Anna to see additional buses and routes.
+
+Additionally, the form is not sketched to be on the bottom of the page because I think it makes more sense that Anna requires a transportation only after checking and making sure that there is no already existing transportation that she can take. This is for the effectively allocating the festival's resources and not to provide repetitive transportation to those who already have the transportation while they can assist the people who don't have any other transportation and are relying on this form and this additional transportation. Therefore, this order of the content provided in this transportation page is logical, as first it shows the existing transportation, and then it provids a form for those who don't have transportation to request one.
+
+The confirmation page has the same layout and content as the transportation page because essentially it is the same page, it is just supposed to show the data to confirm to Anna hat her data is collected and to let Anna to double check her data in case there are any errors in what she has inputted. For that reason, the transportation confirmation page is the same transportation page with the only difference that instead of the form that allows responses, the confirmation page shows the data.
+
+
 
 
 ## Milestone 1 Feedback Revisions (Milestone 2)
@@ -268,6 +288,9 @@ The confirmation page displays the data that was collected from the user. Anna c
 ![Error message page](scetches/error.jpg)
 The error message page that is supposed to pop-up whenever Anna inputs incorrect route is written in a manner/words that don't assume any prior knowledge in web development or computing. Anna is a student however she is not an information science or computer science student and has never takenany coding courses. She doesn't have to know what "Error 404" means, therefore the website will display a friendly message explaining what went wrong and how she can re-routherself into a correct site. It is important that the message does not blame Anna for doing something wrong because otherwise that would be a bad user experience. For that reason, I have planned for the website to aplogize for the inconvinience. Because the website is not supposed to be very formal, the message too is not very formal. It is rather friendly. Additionally, I have planned to keep the same navigation bar and header to let Anna know that she is still on the same website. The suggested solution of how to redirect to the correct/desired website is to use the navigation bar to naviga out of the error messahe page.
 
+Update:
+I have updated the sketches and gave explanation in the above part of this design journay (in milstone 1). The most recent sketches and explanations are there, that update has been done after this question was filled in.
+
 
 ### Partial Plan (Milestone 2)
 > Using your refined sketches, plan your site's partials.
@@ -278,6 +301,8 @@ partial plan:
 One partioal would be the header and the navigation bar. I would customize this partial by echo-ing the variable of the page in the header. Anna would appreciate having these names on the header as it helps to navigate through the website.
 The second partial would be contact information that would be a sidebar or a footer in every page. This would be helpful for Anna as she can find the contact information of the festival organizers' easily and quickly, in case she has to contact them and has questions that are not covered in the website.
 
+Update:
+The contact information should be a footer instead of a side bar because there is only one piece of contact information - the phone number - which does not require as much space as sidebar provids and would be a better fit to be stored as a footer.
 
 ## Milestone 2 Feedback Revisions (Milestone 3)
 > Explain what you revised in response to the Milestone 2 feedback
@@ -327,7 +352,10 @@ The form will use a POST request because I will be asking for Anna's email addre
 ## Milestone 3 Feedback Revisions (Final Submission)
 > Explain what you revised in response to the Milestone 3 feedback
 
-TODO: milestone 3 feedback revisions
+milestone 3 feedback revisions:
+
+- I have secured the data that is being inputted through the file so users can't change or retrieve information from my website by inputting chunks of code and attempting to change my code
+- I have corrected the alignment of my form/responses
 
 
 ## Complete & Polished Website (Final Submission)
@@ -336,11 +364,14 @@ TODO: milestone 3 feedback revisions
 > Plan your HTTP routing.
 > List each route and the PHP file for each route.
 
-| Route       | PHP File                            |
-| ----------- | ----------------------------------- |
-| /           | pages/home.php (or pages/index.php) |
-| TODO: route | TODO: php file                      |
-| TODO: route | TODO: php file                      |
+| Route                        | PHP File                            |
+| -----------                  | ----------------------------------- |
+| /                            | pages/index.php
+| /vendor                      | pages/vendor.php                   |
+| /entertainment               | pages/entertainment.php             |
+| /transportation              | pages/transportation.php            |
+| /transportation/confirmation | pages/transportation-confirmation.php            |
+| /faq                         | pages/faq.php         |
 
 > Explain why these routes (URLs) are usable for your persona.
 

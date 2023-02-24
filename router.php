@@ -4,7 +4,6 @@ const ROUTES = array(
   '/'                             => 'pages/index.php',
   '/vendor'                    => 'pages/vendor.php',
   '/entertainment'              => 'pages/entertainment.php',
-  '/cooking-classes/confirmation' => 'pages/cooking-confirmation.php',
   '/transportation'                   => 'pages/transportation.php',
   '/faq'                   => 'pages/faq.php',
   '/transportation/confirmation'      => 'pages/transportation-confirmation.php'
