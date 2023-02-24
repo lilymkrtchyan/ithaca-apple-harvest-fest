@@ -34,6 +34,11 @@ body {
 
 /* Transportation Page */
 
+.caption{
+  font-size: 12px;
+  padding-left: 50px;
+}
+
 .bus10 {
   background-color: #354a5e;
   width: 150px;
@@ -43,6 +48,10 @@ body {
   padding-top: 5px;
   margin-left: 10px;
   margin-top: 10px;
+}
+
+.busimg{
+  padding-left: 50px;
 }
 
 .bus11 {
@@ -147,19 +156,21 @@ body {
 .buttons{
   display: flex;
   flex-direction: row;
+  margin-left: 15px;
 }
 
 .button-col-1{
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  margin-left: 35px;
 }
 
 .button-col-2{
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 
