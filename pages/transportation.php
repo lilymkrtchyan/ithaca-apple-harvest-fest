@@ -82,7 +82,7 @@ Mon - Fri: Route serves Feeney Way.      Sat & Sun: Routes serves West Campus.</
 
 <h2>Can't find a suitable transit? We got you!</h2>
 <p>Request a transportation and we will create additional routes based on people's demand.</p>
-<form id="transportation-request" action="pages/transportation-confirmation.php" method="post" novalidate>
+<form id="transportation-request" action="/transportation/confirmation" method="post" novalidate>
 
       <div class="form">
         <div class="request">
