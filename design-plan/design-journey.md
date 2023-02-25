@@ -375,7 +375,8 @@ milestone 3 feedback revisions:
 
 > Explain why these routes (URLs) are usable for your persona.
 
-TODO: justification of routing design
+justification of routing design
+These are usable URLs for Anna because they reflect on the content that each page has which also corresponds with the title of the page and makes them easy to remember and intuitive and remarkable for Anna. Additionally, they are short and easy to type. They don't require any special characters. The confirmation page builds on the transportation page as it is the logical next page after the transportation if Anna decides to fill out the form.
 
 
 ### Refined Missing Resource Page (Milestone 3)
@@ -384,14 +385,24 @@ TODO: justification of routing design
 > Provide a brief explanation _underneath_ each sketch.
 > **Refer to the persona by name.**
 
-TODO: sketches + explanation
+sketches + explanation:
+![Error message page](scetches/bad_error_page.jpg)
+This sketch only shows the number of the error message and doesn't inlcude any human readable text. This would be usable for developers because we already know what this code means and hence this could save us time debugging it. However, Anna is not a web developer and she doesn't know what this means. Additionally, this website seems not at all connected to the original festival site and there are no buttons to navigate out of this page. That is why this page is not a good example of an error page.
+
+![Error message page](scetches/error.jpg)
+The error message page that is supposed to pop-up whenever Anna inputs incorrect route is written in a manner/words that don't assume any prior knowledge in web development or computing. Anna is a student however she is not an information science or computer science student and has never takenany coding courses. She doesn't have to know what "Error 404" means, therefore the website will display a friendly message explaining what went wrong and how she can re-routherself into a correct site. It is important that the message does not blame Anna for doing something wrong because otherwise that would be a bad user experience. For that reason, I have planned for the website to aplogize for the inconvinience. Because the website is not supposed to be very formal, the message too is not very formal. It is rather friendly. Additionally, I have planned to keep the same navigation bar and header to let Anna know that she is still on the same website. The suggested solution of how to redirect to the correct/desired website is to use the navigation bar to naviga out of the error messahe page.
 
 
 ### Accessibility Audit (Final Submission)
 > Tell us what issues you discovered during your accessibility audit.
 > What do you do to improve the accessibility of your site?
 
-TODO: audit fixes
+audit fixes:
+
+- One issue that I have encountered was that I did not include the language of my website in the html tag. To fix this issue I added the html tag where I identified that the website is in English.
+- I have encountered lots of contrast issues as the website, especially the transprtation page uses lots of different and bright colors to indicate and differentiate between the different buses and their routes. Hence, lots of colors had contrast issues. I have increased the contrast within CSS to fix the issue.
+- I had wrongly identified the labels on the form, so they weren't showing up. The issue was that I matched the "for" attribute of label with the name of the input and not with its id. Once I corrected this, the accessibility issue was fixed.
+- Lastly, I had contrast issue with the link that I linked on my texts. One such example was that the TCAT website on the transportation page. The link element has default styling which contast did not match the accessibility requirements. To solve this issue I changed the color of the link and as I changed the color to white (which is also the color of the rest of the text) I also underlined it so Anna can identify that this is a clickable text.
 
 
 ### Final Design + Audience Goals (Final Submission)
@@ -399,13 +410,21 @@ TODO: audit fixes
 > Be specific. Tell us how you tailored your design, content, etc. to make your website usable for your persona.
 > **Refer to the persona by name.**
 
-TODO: rationale
+rationale:
+My audience is represented by my persona - Anna. She is a university student in Ithaca.
+I have created the home page to provide the theme, location, and the time of the festival so that Anna can understand what is this festival about and if she is free to attend as she has a very busy schedule.
+I have added a new transportation page which was previously not there. Because one of the main worries and concerns of Anna is the transportation, as she doesn't have a car, I have added the transportation page to provide all the possible accessible ways of transportation. I have designed the page to include the bus routes as well as a form for Anna to request a transportation if she doesn't find any existing transportation. The form ensures that new routes of transportation will be designed based on people's demand, that is why it asks Anna to input what time she would like to be picked up (all the times listed are the available times that the transportation could be scheduled), the location where she would like to be picked up, and her email address. The form does not have a list of locations for Anna to choose from (though this was an option that I have considered above in the design journey) because the festival wants to gather open data without limiting the options and optimize the additional routes to pick up as many people as possible. The form asks for the email of Anna because that is the primarily contact way that the festival prganization team will use to contact Anna about additional buses and offers. The form, on the other hand, doesn't ask about her name or anything else, because that information is irrelevant for this communication, at least at the beginning where they are still designing and route. The name would be more useful to know when they invite her on the bus and need her name to check if she is present (not for the very first stage of designing the route).
+I have the vendor and the entertainment information on the website because the main goals that Anna has is to have food and fun. Hence, these pages show all the available food/drink/crafts options and events.
+Additionally, I have the frequently asked questions page because it is a common practice and there is information that is specific to few people but not neccessarily relevant to Anna and the majority of people, so that information is stored in the faq page for people who would specifically look for it. The faq page also uses accordion because people who look at that page usually have a question in mind and want to find the answer, and that is wht they don't need to scroll through and read all the answers to all the questions. Instead they can click on the question they are interested in and only read the answer to that question. This is more optimal as it takes less effort and time.
 
 
 ### Self-Reflection (Final Submission)
 > Take some time here to reflect on how much you've learned since you started this class. It's often easy to ignore our own progress. Take a moment and think about your accomplishments in this class. Hopefully you'll recognize that you've accomplished a lot and that you should be very proud of those accomplishments!
 
-TODO: self-reflection
+self-reflection:
+
+I have learned to implement partials and dynamic websites. I did not think that customizing the URLs would be so hard and time-consuming. Or at least for me, it probably took the longest to change all the routes to files and to figure out how to use the router. However, I definitely see the advantages of it. I have also learned how to design usable URLs.
+One of the most exciting things that I have learnt to implement is the forms and how to use PHP. I had never previously used PHP. Now I know how to design and align forms and how to secure the user input. Additionally, now I know what to do to prevent some users from exploiting my website and my data. I had issues in displaying the data back to the user but shortly I realized the bug. Hence, I have also improved my debugging skills.
 
 
 ## Grading (Final Submission)
@@ -413,29 +432,35 @@ TODO: self-reflection
 ### Grading: Mobile or Desktop (Final Submission)
 > When we grade your final site, should we grade this with a mobile screen size or a desktop screen size?
 
-TODO: screen size
+screen size
+
+Desktop size
 
 
 ### Grading: Partials (Final Submission)
 > Clearly list each partial file and where you used it.
 
-- TODO: partial 1
-- TODO: partial 2
+- partial 1: header - every page
+- partial 2: footer - every page
 
 > Which partials have customization? Explain how the customization looks in the browser.
 
-- Example: header.php shows a border around the current page (TODO: delete this line)
-- TODO: partial customization
+- partial customization:
+  header.php includes the name of the page that the user is on and the navigation bar. The customization is shown by showing the title of the page through the variables.
 
 
 ### Collaborators
 > List any persons you collaborated with on this project.
 
-TODO: list your collaborators
+list your collaborators:
+
+I have not collaborated with anyone
 
 
 ### Reference Resources
 > Please cite any external resources you referenced in the creation of your project.
 > (i.e. W3Schools, StackOverflow, Mozilla, etc.)
 
-TODO: list reference resources
+list reference resources:
+
+I have used the class resources for the router.php (as allowed in the project instructions) and I have used the TCAT official website to populate information to my transportation page (everything is cited on the website itself).
