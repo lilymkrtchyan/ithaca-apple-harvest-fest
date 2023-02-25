@@ -27,13 +27,7 @@ $time = $_POST["time"];
 <body>
 
 
-
-<!-- <h1>Form Confirmation</h1> -->
-<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
-
 <?php include('includes/header.php'); ?>
-
-<!-- Source: ALL THE CONTENT IS PROVIDED BY THE INSTRUCTOR-->
 
 <p>Oopsies.. Looks like we can't find the page that you are looking for. Sorry about that.</p>
 <p>You can use the navigation bar to try again <//3 </p>
